@@ -10,8 +10,7 @@ jobs:
                 keys:
                     - gradle-{{ checksum "build.gradle" }}
             - run: gradle assemble
-            - run: ./gradlew --stacktrace runTestInferenceService -DEnvironment=Production
-            - run: gradle run
+            - run: gradle run TestInferenceService -DEnvironment=Production
             - save_cache:
                 paths:
                     - ~/.gradle
