@@ -9,6 +9,7 @@ jobs:
             - restore_cache:
                 keys:
                     - gradle-{{ checksum "build.gradle" }}
+            - run: gradle build
             - run: ./gradlew --stacktrace runTestInferenceService -DEnvironment=Production
             - save_cache:
                 paths:
