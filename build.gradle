@@ -41,39 +41,39 @@ test {
     listeners << 'org.uncommons.reportng.JUnitXMLReporter'
   }
 
-
-  task runTestsCulinary(type: JavaExec, dependsOn: 'classes') {
-    main = 'org.testng.TestNG'
-    systemProperties = System.properties
-    classpath = files("./src/test/java",
-      project.sourceSets.main.compileClasspath,
-      project.sourceSets.test.compileClasspath,
-      project.sourceSets.main.runtimeClasspath,
-      project.sourceSets.test.runtimeClasspath)
-    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngCulinary.xml"]
-  }
-
-  task runTestsVacation(type: JavaExec, dependsOn: 'classes') {
-    main = 'org.testng.TestNG'
-    systemProperties = System.properties
-    classpath = files("./src/test/java",
-            project.sourceSets.main.compileClasspath,
-            project.sourceSets.test.compileClasspath,
-            project.sourceSets.main.runtimeClasspath,
-            project.sourceSets.test.runtimeClasspath)
-    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngVacation.xml"]
-  }
-
-  task runTestsExperience(type: JavaExec, dependsOn: 'classes') {
-    main = 'org.testng.TestNG'
-    systemProperties = System.properties
-    classpath = files("./src/test/java",
-            project.sourceSets.main.compileClasspath,
-            project.sourceSets.test.compileClasspath,
-            project.sourceSets.main.runtimeClasspath,
-            project.sourceSets.test.runtimeClasspath)
-    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngExperience.xml"]
-  }
+//
+//  task runTestsCulinary(type: JavaExec, dependsOn: 'classes') {
+//    main = 'org.testng.TestNG'
+//    systemProperties = System.properties
+//    classpath = files("./src/test/java",
+//      project.sourceSets.main.compileClasspath,
+//      project.sourceSets.test.compileClasspath,
+//      project.sourceSets.main.runtimeClasspath,
+//      project.sourceSets.test.runtimeClasspath)
+//    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngCulinary.xml"]
+//  }
+//
+//  task runTestsVacation(type: JavaExec, dependsOn: 'classes') {
+//    main = 'org.testng.TestNG'
+//    systemProperties = System.properties
+//    classpath = files("./src/test/java",
+//            project.sourceSets.main.compileClasspath,
+//            project.sourceSets.test.compileClasspath,
+//            project.sourceSets.main.runtimeClasspath,
+//            project.sourceSets.test.runtimeClasspath)
+//    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngVacation.xml"]
+//  }
+//
+//  task runTestsExperience(type: JavaExec, dependsOn: 'classes') {
+//    main = 'org.testng.TestNG'
+//    systemProperties = System.properties
+//    classpath = files("./src/test/java",
+//            project.sourceSets.main.compileClasspath,
+//            project.sourceSets.test.compileClasspath,
+//            project.sourceSets.main.runtimeClasspath,
+//            project.sourceSets.test.runtimeClasspath)
+//    args = ["-parallel",  "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngExperience.xml"]
+//  }
   
   task runTestInfernceService(type: JavaExec, dependsOn: 'classes') {
     main = 'org.testng.TestNG'
