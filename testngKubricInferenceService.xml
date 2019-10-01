@@ -2,7 +2,7 @@
 <suite name="Discovery-Api-Test-Suite" >
     <test name="Discovery-Api-Sanity-Suite" preserve-order="true">
         <classes>
-            <class name="org."/>
+            <class name="org.kubric.inference.service.TestInferenceService"/>
         </classes>
     </test>
 </suite>

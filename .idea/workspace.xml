@@ -2,96 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67aa892d-e048-4d0e-b40b-2ea7dd222391" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/kubrik-api-test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/Suite/Test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/Suite/Test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.TopProductTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.AutoCompleteApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.DestinationDetailsApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.DistanceCalculationTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.ExperienceDetailsPageTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.NewProductApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.ProductSearchFilterApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.ProductSearchLandingPageApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.ProductSearchSortApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.ReviewApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/junitreports/TEST-org.traveloka.experience.test.api.TicketListApiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/Test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_1168697867476670804_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_126827140250897678_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_2619594948153983001_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_3893934280648761410_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_4138086076821452352_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_4876345478479232488_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_488508954440183725_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_658968869233089827_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_8612442776481921041_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_979274346928648298_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/test/jar_extract_998084240922554540_tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubric-api-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/META-INF/api-testing.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/CSVParametersProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/DataFileParameters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/JSONFileReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/PropertyReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/RequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/inference/service/InferenceServiceRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/inference/service/TestInferenceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config-files/prod/InferenceService.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/input-data/Inference-Service/inferenceTaskResult.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/input-data/Inference-Service/inferenceservice.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/request-json/Inference_Service/InferenceReference.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/CSVParametersProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/DataFileParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/JSONFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/RequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/commonUtils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/inference/service/InferenceServiceRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kubric/inference/service/TestInferenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngCulinary.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngExperience.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngVacation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngkubricapi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngkubricapi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngKubricInferenceService.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,13 +17,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="86" column="118" selection-start-line="86" selection-start-column="118" selection-end-line="86" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testngCulinary.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testngExperience.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -122,6 +72,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/testngkubricapi.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -154,16 +107,6 @@
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +118,57 @@
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kubric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kubric" type="462c0819:PsiDirectoryNode" />
+              <item name="inference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kubric" type="462c0819:PsiDirectoryNode" />
+              <item name="inference" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,17 +208,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -247,6 +243,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngCulinary.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngExperience.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="86" column="118" selection-start-line="86" selection-start-column="118" selection-end-line="86" selection-end-column="118" />
         </state>
       </provider>
     </entry>
