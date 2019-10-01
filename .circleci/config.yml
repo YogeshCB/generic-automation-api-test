@@ -10,7 +10,7 @@ jobs:
                 keys:
                     - gradle-{{ checksum "build.gradle" }}
             - run: gradle assemble
-            - run: gradle run TestInferenceService -DEnvironment=Production
+            - run: gradle run TestInferenceService -DEnvironment=$Production
             - save_cache:
                 paths:
                     - ~/.gradle
