@@ -18,10 +18,12 @@ public class TestInferenceService {
     InferenceServiceRequestBuilder Irb;
     JSONFileReader jReader;
 
+
     @BeforeClass
     public void init() throws IOException {
         String env = System.getProperty("Environment");
-        System.out.println("--------- Env name: " + env + " ---------");
+       System.out.println("--------- Env name: " + env + " ---------");
+
         if (env.equalsIgnoreCase("Staging")) {
             Irb = new InferenceServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
         } else if (env.equalsIgnoreCase("Production")) {

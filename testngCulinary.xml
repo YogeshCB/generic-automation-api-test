@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="kubrik-api-test" >
-  <test name="kubrik-api-test" preserve-order="true">
-    <classes>
-      <class name="org."/>
-    </classes>
-  </test>
-</suite>

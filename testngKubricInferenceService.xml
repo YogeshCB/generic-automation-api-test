@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Discovery-Api-Test-Suite" >
-    <test name="Discovery-Api-Sanity-Suite" preserve-order="true">
+<suite name="kubric-backend-test" >
+    <test name="kubric-backend-sanity-test" preserve-order="true">
         <classes>
             <class name="org.kubric.inference.service.TestInferenceService"/>
         </classes>

@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  kubric-backend-sanity-test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>kubric-backend-sanity-test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 02 01:46:06 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9000 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.kubric.inference.service.TestInferenceService.testInferenceCampaign()'><b>testInferenceCampaign</b><br>Test class: org.kubric.inference.service.TestInferenceService<br>Test method: Check to see if API is infering value and giving a task id   <br>Parameters: /api/v1/inference/campaign/76f99b23-a761-4012-8812-fa1ef1aeef8c<br/>
+<a href="#Output-1670546046" onClick='toggleBox("Output-1670546046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1670546046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1670546046">
+Base URL: https://api.kubric.io<br/>
+Endpoint: /api/v1/inference/campaign/76f99b23-a761-4012-8812-fa1ef1aeef8c<br/>
+
+FINAL REQUEST: <br/>
+--------------<br/>
+
+{"data":[{"booking_id":"23899","city_name":"Lucknow","restaurant_name":"Burger Point","desc":"Free CHILLI GARLIC POPS 6 PCS on"},{"booking_id":" ","city_name":"Aurangabad","restaurant_name":"Cafe Bakers","desc":"20% off on all orders"},{"booking_id":"23899","city_name":"Lucknow","restaurant_name":"Burger Point","desc":"Free CHILLI GARLIC POPS 6 PCS","image_desc":"Burger"}],"bindings":[{"heading_line1":{"default":"Choose the best \n Be the best","shouldParametrize":true,"meta":{"colId":"s1/heading_line1","colIndex":1,"colTitle":"shot 1:shot6_subtitle"},"type":"text","title":"s1/heading_line1"},"heading_line2":{"default":"BREATHABLE MESH","shouldParametrize":true,"meta":{"colId":"s1/heading_line2","colIndex":2,"colTitle":"shot 1:shot2_techcaption"},"type":"text","title":"s1/heading_line2"},"subheading_text":{"default":"BREATHABLE MESH","shouldParametrize":true,"meta":{"colId":"s1/subheading_text","colIndex":3,"colTitle":"shot 1:shot2_techcaption"},"type":"text","title":"s1/subheading_text"}}]}<br/>
+RESPONSE : <br/>
+{"task_id": "b0f17357-ff38-462b-949f-212c3560f982", "campaign_id": "76f99b23-a761-4012-8812-fa1ef1aeef8c"}
+<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>org.kubric.inference.service.TestInferenceService@1b40d5f0</td></tr>
+<tr>
+<td title='org.kubric.inference.service.TestInferenceService.testInferenceTaskResult()'><b>testInferenceTaskResult</b><br>Test class: org.kubric.inference.service.TestInferenceService<br>Test method: Check to see if you are able to get task inference result  <br>Parameters: api/v1/collage/task/dc0d50ec-109f-4bab-9b76-6c1b653d00fb<br/>
+<a href="#Output-1925352804" onClick='toggleBox("Output-1925352804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1925352804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1925352804">
+Base URL: https://api.kubric.io<br/>
+Endpoint: api/v1/collage/task/dc0d50ec-109f-4bab-9b76-6c1b653d00fb<br/>
+
+FINAL REQUEST: <br/>
+--------------<br/>
+RESPONSE : <br/>
+{"created":"2019-09-27T10:34:07.651602+00:00","created_for":null,"firebase_ref_id":"/queue/tasks/maaz@kubric,io/-LpmHEmDRowTzsh7tKMK","flow_state":null,"message":"Finished","meta":{"input":{"campaign_id":"76f99b23-a761-4012-8812-fa1ef1aeef8c"}},"progress":100,"result":{"data":[{"bindings":[{"copy_input":"Free CHILLI GARLIC POPS 6 PCS on","fontsize_heading":"95","food_desc":["chilli garlic pops","chilli garlic"],"gradient_color":"#000000","heading_line1":"FLAVORFUL","heading_line2":"TRADITIONAL CHINESE","heading_line3":"","img_input":null,"logo_opacity":"0","subheading_text":"FROM BURGER POINT"}]},{"bindings":[{"copy_input":"20% off on all orders","fontsize_heading":"95","food_desc":"NA","gradient_color":"#000000","heading_line1":"","heading_line2":"GRAB 20% OFF!","heading_line3":"","img_input":null,"logo_opacity":"0","subheading_text":"FROM CAFE BAKERS"}]},{"bindings":[{"copy_input":"Free CHILLI GARLIC POPS 6 PCS","fontsize_heading":"95","food_desc":["chilli garlic pops","chilli garlic"],"gradient_color":"#000000","heading_line1":"LIP-SMACKING","heading_line2":"CHINESE OPTIONS","heading_line3":"","img_input":"Burger","logo_opacity":"0","subheading_text":"FROM BURGER POINT"}]}],"failed":0,"processed":3,"status":"success","total":3},"status":1,"title":null,"type":"preprocessing","uid":"dc0d50ec-109f-4bab-9b76-6c1b653d00fb","updated":"2019-09-27T10:34:16.337942+00:00","user":"maaz@kubric.io","workspace":null}
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>org.kubric.inference.service.TestInferenceService@1b40d5f0</td></tr>
+</table><p>
+</body>
+</html>
