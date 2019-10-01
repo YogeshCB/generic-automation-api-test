@@ -1,30 +1,24 @@
-version: 2
+version: 2.0
+
 jobs:
-  build:
-    working_directory: ~/code
-    docker:
-      - image: circleci/android:api-25-alpha
-    environment:
-      JVM_OPTS: -Xmx3200m
-    steps:
-      - checkout
-      - restore_cache:
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
-      #      - run:
-      #         name: Chmod permissions #if permission for Gradlew Dependencies fail, use this.
-      #         command: sudo chmod +x ./gradlew
-      - run:
-          name: Download Dependencies
-          command: ./gradlew androidDependencies
-      - save_cache:
-          paths:
-            - ~/.gradle
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
-      - run:
-          name: Run Tests
-          command: ./gradlew lint test
-      - store_artifacts:
-          path: app/build/reports
-          destination: reports
-      - store_test_results:
-          path: app/build/test-results
+    build:
+        docker:
+            - image: circleci/openjdk:9-jdk-sid-node-browsers
+        steps:
+            - checkout
+            - restore_cache:
+                keys:
+                    - gradle-{{ checksum "build.gradle" }}
+            - run: gradle assemble
+            - run: gradle run
+            - run: gradle test
+            - save_cache:
+                paths:
+                    - ~/.gradle
+                key: gradle-{{ checksum "build.gradle" }}
+            - store_artifacts:
+                path: build/distributions
+                destination: distributions
+            - store_artifacts:
+                path: build/libs
+                destination: libs
