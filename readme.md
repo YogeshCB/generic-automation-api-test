@@ -1,1 +1,1 @@
-# Kubruic API test
+# discovery-api-test
