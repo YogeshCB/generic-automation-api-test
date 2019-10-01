@@ -11,7 +11,7 @@ jobs:
                     - gradle-{{ checksum "build.gradle" }}
             - run: gradle assemble
             - run: gradle run
-            - run: gradle run TestInfernceService -Denvironment=Staging
+            - run: gradle run TestInferenceService -Denvironment=Staging
             - save_cache:
                 paths:
                     - ~/.gradle
