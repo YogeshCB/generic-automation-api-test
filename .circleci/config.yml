@@ -1,4 +1,6 @@
 version: 2
+orbs:
+  allure: ayte/allure@0.1.2
 jobs:
   build:
     working_directory: ~/repo

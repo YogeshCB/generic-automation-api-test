@@ -4,3 +4,5 @@
   <testcase name="testInferenceTaskResult" time="1.568" classname="org.kubric.inference.service.TestInferenceService"/>
   <testcase name="testInferenceCampaign" time="6.987" classname="org.kubric.inference.service.TestInferenceService"/>
 </testsuite> <!-- org.kubric.inference.service.TestInferenceService -->
+
+

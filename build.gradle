@@ -42,5 +42,7 @@ dependencies {
                 project.sourceSets.test.compileClasspath,
                 project.sourceSets.main.runtimeClasspath,
                 project.sourceSets.test.runtimeClasspath)
-        args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-output", "./testngKubricInferenceService.xml"]
+        args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testngKubricInferenceService.xml"]
     }
+
+
