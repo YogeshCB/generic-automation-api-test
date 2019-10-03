@@ -51,7 +51,7 @@ public class TestInferenceService {
 
         System.out.println();
         {
-           Reporter.log("Uri=" + uri );
+           Reporter.log("Uri=" + uri +"This is test");
         }
 
     }
