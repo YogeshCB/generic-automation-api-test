@@ -6,6 +6,7 @@ import io.restassured.response.ValidatableResponse;
 import org.kubric.commonUtils.CSVParametersProvider;
 import org.kubric.commonUtils.DataFileParameters;
 import org.kubric.commonUtils.JSONFileReader;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,11 @@ public class TestInferenceService {
             e.printStackTrace();
         }
 
+        System.out.println();
+        {
+           Reporter.log("Uri=" + uri );
+        }
+
     }
     @Test(enabled = true, priority = 0, description = "Check to see if you are able to get task inference result  ", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "inferenceTaskResult.csv", path = "/resources/input-data/Inference-Service")
@@ -60,6 +66,7 @@ public class TestInferenceService {
 
             e.printStackTrace();
         }
+        Reporter.log("Uri=" + uri );
 
     }
 }
