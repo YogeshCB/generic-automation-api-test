@@ -16,10 +16,10 @@ jobs:
     - run:
             name: Save test results
             command: |
-                mkdir -p ~/build/test-output/
-                find . -type f -regex ".*/build/test-output/.*html" -exec cp {} ~/build/test-output/ \;
+                mkdir -p ~/test-results/junit/
+                find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/test-results/junit/ \;
             when: always
     - store_test_results:
-            path: ~/test-output
+            path: ~/test-results
     - store_artifacts:
-            path: ~/test-output
+            path: ~/test-results/junit
