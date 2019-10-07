@@ -13,19 +13,16 @@ jobs:
         name: Download Dependencies
         command: ./gradlew build --refresh-dependencies
     - run:
-        name: Run Infernce Tests
-        command: ./gradlew --stacktrace runTestInferenceService -DEnvironment=Production
-
-
-
-    steps:
-      - run:
-          name: Save test results
-          command: |
-            mkdir -p ~/cucumber
-            bundle exec cucumber pretty --format json --out ~/cucumber/tests.cucumber
-          when: always
-      - store_test_results:
-          path: ~/cucumber
-      - store_artifacts:
-          path: ~/cucumber 
+        name: Run Tests
+        command: ./gradlew --stacktrace runTestInferenceService -DEnvironment=Staging
+        command: ./gradlew --stacktrace runTestTestLiveBannerService -DEnvironment=Staging
+    - run:
+            name: Save test results
+            command: |
+                mkdir -p ~/test-results/junit/
+                find . -type f -regex ".*/build/test-results/.kubric-backend-sanity-test.html" -exec cp {} ~/test-results/junit/ \;
+            when: always
+    - store_test_results:
+            path: ~/test-results
+    - store_artifacts:
+            path: ~/test-results/junit
