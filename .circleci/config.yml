@@ -13,8 +13,12 @@ jobs:
         name: Download Dependencies
         command: ./gradlew build --refresh-dependencies
     - run:
-        name: Run Tests
+        name: Run Infernce Tests
         command: ./gradlew --stacktrace runTestInferenceService -DEnvironment=Production
+    - run:
+        name: Run Live Banners Tests
+        command: ./gradlew --stacktrace runTestTestLiveBannerService -DEnvironment=Production
+          - run:
     - run:
             name: Save test results
             command: |
