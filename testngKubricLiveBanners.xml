@@ -2,7 +2,9 @@
 <suite name="kubric-backend-test" >
     <test name="kubric-backend-sanity-test" preserve-order="true">
         <classes>
-            <class name="org.kubric.inference.service.TestLiveBannerService"/>
+            <class name="org.kubric.livebanners.service.TestLiveBannerService"/>
         </classes>
     </test>
 </suite>
+
+

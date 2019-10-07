@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67aa892d-e048-4d0e-b40b-2ea7dd222391" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/config-files/prod/InferenceService.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config-files/prod/InferenceService.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config-files/prod/LiveBanner.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config-files/prod/LiveBanner.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngKubricLiveBanners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngKubricLiveBanners.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -115,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -181,11 +179,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -221,12 +219,12 @@
         <option value="$PROJECT_DIR$/resources/input-data/Live-Banner/Count-Enable_banners.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Live-Banner/Count-Disable-banner.csv" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/livebanners/service/TestLiveBannerService.java" />
-        <option value="$PROJECT_DIR$/testngKubricLiveBanners.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/resources/config-files/prod/InferenceService.properties" />
         <option value="$PROJECT_DIR$/resources/config-files/prod/LiveBanner.properties" />
         <option value="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" />
+        <option value="$PROJECT_DIR$/testngKubricLiveBanners.xml" />
       </list>
     </option>
   </component>
@@ -905,20 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/livebanners/service/TestLiveBannerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -968,6 +952,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
