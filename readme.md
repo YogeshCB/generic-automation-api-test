@@ -1,1 +1,1 @@
-# discovery-api-test
+# Assets-api-test
