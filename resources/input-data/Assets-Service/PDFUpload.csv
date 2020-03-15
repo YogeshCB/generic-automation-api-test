@@ -1,0 +1,2 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[file-sample_150kB.pdf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-pdf-folder/file-sample_150kB.pdf

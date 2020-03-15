@@ -1,0 +1,6 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[1.jpeg],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-jpeg-folder/1.jpeg
+/api/v1/assets/getuploadurls,[2.jpeg],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-jpeg-folder/2.jpeg
+/api/v1/assets/getuploadurls,[3.jpeg],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-jpeg-folder/3.jpeg
+/api/v1/assets/getuploadurls,[4.jpeg],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-jpeg-folder/4.jpeg
+/api/v1/assets/getuploadurls,[5.jpeg],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-jpeg-folder/5.jpeg

@@ -1,0 +1,8 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[OpenSans-Bold.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-Bold.ttf
+/api/v1/assets/getuploadurls,[OpenSans-BoldItalic.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-BoldItalic.ttf
+/api/v1/assets/getuploadurls,[OpenSans-ExtraBold.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-ExtraBold.ttf
+/api/v1/assets/getuploadurls,[OpenSans-ExtraBoldItalic.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-ExtraBoldItalic.ttf
+/api/v1/assets/getuploadurls,[OpenSans-LightItalic.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-LightItalic.ttf
+/api/v1/assets/getuploadurls,[OpenSans-Regular.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-Regular.ttf
+/api/v1/assets/getuploadurls,[OpenSans-Semibold.ttf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder/OpenSans-Semibold.ttf

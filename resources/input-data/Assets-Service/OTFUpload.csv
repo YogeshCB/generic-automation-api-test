@@ -1,0 +1,5 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[Montserrat-BoldItalic.otf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-OTF-folder/Montserrat-BoldItalic.otf
+/api/v1/assets/getuploadurls,[Montserrat-ExtraBold.otf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-OTF-folder/Montserrat-ExtraBold.otf
+/api/v1/assets/getuploadurls,[Montserrat-Italic.otf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-OTF-folder/Montserrat-Italic.otf
+/api/v1/assets/getuploadurls,[Montserrat-Light.otf],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-OTF-folder/Montserrat-Light.otf

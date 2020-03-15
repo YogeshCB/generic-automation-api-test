@@ -1,0 +1,6 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[brand-png.png],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-png-folder/brand-png.png
+/api/v1/assets/getuploadurls,[Gully-png.png],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-png-folder/brand-png.png
+/api/v1/assets/getuploadurls,[numbers-png.png],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-png-folder/brand-png.png
+/api/v1/assets/getuploadurls,[png.png],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-png-folder/brand-png.png
+/api/v1/assets/getuploadurls,[PNG-LOGO.PNG],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/5-png-folder/brand-png.png

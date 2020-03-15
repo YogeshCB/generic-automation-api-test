@@ -1,0 +1,2 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[file_example_WAV_1MG.wav],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-WAV-folder/file_example_WAV_1MG.wav

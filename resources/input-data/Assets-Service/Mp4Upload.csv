@@ -1,0 +1,5 @@
+uri,checkFileName,japthFilename,uri2,uri3,folderpath
+/api/v1/assets/getuploadurls,[SampleVideo_1280x720_1mb.mp4],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-MP4-FOLDER/SampleVideo_1280x720_1mb.mp4
+/api/v1/assets/getuploadurls,[SampleVideo_1280x720_1mb.mp4],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-MP4-FOLDER/SampleVideo_1280x720_1mb.mp4
+/api/v1/assets/getuploadurls,[SampleVideo_1280x720_1mb.mp4],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-MP4-FOLDER/SampleVideo_1280x720_1mb.mp4
+/api/v1/assets/getuploadurls,[SampleVideo_1280x720_1mb.mp4],$.[filename],/api/v1/assets/confirmupload,/api/v1/collage/task/,resources/input-data/Assets-Service/Assets/1-MP4-FOLDER/SampleVideo_1280x720_1mb.mp4
