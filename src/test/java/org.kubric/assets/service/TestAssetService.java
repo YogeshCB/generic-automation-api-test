@@ -34,7 +34,7 @@ public class TestAssetService {
         if (env.equalsIgnoreCase("Staging")) {
             arb = new assetsServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
         } else if (env.equalsIgnoreCase("Production")) {
-            arb = new assetsServiceRequestBuilder("/resources/config-files/prod/InferenceService.properties");
+            arb = new assetsServiceRequestBuilder("resources/config-files/Production/InferenceService.properties");
         }
         jReader = new JSONFileReader();
 
