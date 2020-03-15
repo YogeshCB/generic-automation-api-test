@@ -32,13 +32,7 @@ dependencies {
 }
 
 
-test {
-    useTestNG()
-    options {
-        useDefaultListeners = false
-        listeners << 'org.uncommons.reportng.HTMLReporter'
-        listeners << 'org.uncommons.reportng.JUnitXMLReporter'
-    }}
+
 
 //
 //    task runTestInferenceService(type: JavaExec, dependsOn: 'classes') {
@@ -53,16 +47,7 @@ test {
 //    }
 //
 //
-//    task runTestTestLiveBannerService(type: JavaExec, dependsOn: 'classes') {
-//        main = 'org.testng.TestNG'
-//        systemProperties = System.properties
-//        classpath = files("./src/test/java",
-//                project.sourceSets.main.compileClasspath,
-//                project.sourceSets.test.compileClasspath,
-//                project.sourceSets.main.runtimeClasspath,
-//                project.sourceSets.test.runtimeClasspath)
-//        args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testngKubricLiveBanners.xml"]
-//    }
+   
 
     task runTestTestAssetService(type: JavaExec, dependsOn: 'classes') {
         main = 'org.testng.TestNG'
