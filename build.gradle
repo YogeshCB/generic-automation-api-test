@@ -31,22 +31,6 @@ dependencies {
 
 }
 
-
-
-
-//
-//    task runTestInferenceService(type: JavaExec, dependsOn: 'classes') {
-//        main = 'org.testng.TestNG'
-//        systemProperties = System.properties
-//        classpath = files("./src/test/java",
-//                project.sourceSets.main.compileClasspath,
-//                project.sourceSets.test.compileClasspath,
-//                project.sourceSets.main.runtimeClasspath,
-//                project.sourceSets.test.runtimeClasspath)
-//        args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testngKubricInferenceService.xml"]
-//    }
-//
-//
    
 
     task runTestTestAssetService(type: JavaExec, dependsOn: 'classes') {
