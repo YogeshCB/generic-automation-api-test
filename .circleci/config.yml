@@ -5,25 +5,24 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-    - image: circleci/android:api-28
+      - image: circleci/android:api-28
     steps:
-    - checkout
+      - checkout
 
-    - run:
-        name: Download Dependencies
-        command: ./gradlew build --refresh-dependencies
-    - run:
-        name: Run Asset Tests
-        command: ./gradlew --stacktrace runTestTestAssetService -ea -DEnvironment=Production
+      - run:
+          name: Download Dependencies
+          command: ./gradlew build --refresh-dependencies
+      - run:
+          name: Run Assets Tests
+          command: ./gradlew --stacktrace runTestAssetService -DEnvironment=Production
 
-
-    - run:
-            name: Save test results
-            command: |
-                mkdir -p ~/test-results/junit/
-                find . -type f -regex ".*/build/test-results/.*html" -exec cp {} ~/test-results/junit/ \;
-            when: always
-    - store_test_results:
-            path: ~/test-results
-    - store_artifacts:
-            path: ~/test-results/junit
+      - run:
+          name: Save test results
+          command: |
+            mkdir -p ~/test-results/junit/
+            find . -type f -regex ".*/build/test-results/.*html" -exec cp {} ~/test-results/junit/ \;
+          when: always
+      - store_test_results:
+          path: ~/test-results
+      - store_artifacts:
+          path: ~/test-results/junit

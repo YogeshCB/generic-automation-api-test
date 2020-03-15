@@ -33,7 +33,7 @@ dependencies {
 
    
 
-    task runTestTestAssetService(type: JavaExec, dependsOn: 'classes') {
+    task runTestAssetService(type: JavaExec, dependsOn: 'classes') {
         main = 'org.testng.TestNG'
         systemProperties = System.properties
         classpath = files("./src/test/java",
