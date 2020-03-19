@@ -122,7 +122,7 @@ public class RequestBuilder {
                         .body(jsonReqBody.toString())
                         .header("Content-Type" , "application/json")
                         .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","334943e3-0f4c-4321-be86-b42a05657afc")
+                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .post(pathUri)
                         .then().log().ifError();
@@ -148,7 +148,7 @@ public class RequestBuilder {
                         .body(jsonReqBody1.toString())
                         .header("Content-Type" , "application/json")
                         .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","334943e3-0f4c-4321-be86-b42a05657afc")
+                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .post(pathUri)
                         .then().log().ifError();
@@ -304,7 +304,7 @@ public class RequestBuilder {
                 given()
                         .spec(request)
                         .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","334943e3-0f4c-4321-be86-b42a05657afc")
+                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .get(task_url)
                         .then().log().ifError();
@@ -317,8 +317,7 @@ public class RequestBuilder {
 
 
 
-    public ValidatableResponse getUnzipTaskID(String task_url2)
-    {
+    public ValidatableResponse getUnzipTaskID(String task_url2) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + task_url2, 1, true);
@@ -327,8 +326,8 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .spec(request)
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","334943e3-0f4c-4321-be86-b42a05657afc")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .get(task_url2)
                         .then().log().ifError();
@@ -338,8 +337,26 @@ public class RequestBuilder {
         return response;
 
 
+    }
+        public ValidatableResponse getassetFilter(String uri)
+        {
 
+            Reporter.log("Base URL: " + baseUrl, 1, true);
+            Reporter.log("Endpoint: " + uri, 1, true);
+            Reporter.log("\nFINAL REQUEST: ", 1, true);
+            Reporter.log("--------------", 1, true);
+            ValidatableResponse response =
+                    given()
+                            .spec(request)
+                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                            .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                            .when()
+                            .get(uri)
+                            .then().log().ifError();
+            Reporter.log("RESPONSE : ", 1, true);
+            Reporter.log(response.extract().body().asString(), 1, true);
 
+            return response;
 
     }
 

@@ -100,7 +100,7 @@ public class TestAssetService {
     }
 
 
-    @Test(enabled = true, priority = 1, description = "Test case- To check if  API can upload AI file", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @Test(enabled = true, priority = 1, description = "Test case- To check if  API can upload AEP file", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "AEPuploadtest.csv", path = "/resources/input-data/Assets-Service")
     public void testAepUpload(String uri, String checkFileName, String japthFilename, String uri2, String uri3, String folderpath) {
 
@@ -1729,4 +1729,84 @@ public class TestAssetService {
 
 
 
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for image filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "Imagefilter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckBasicImageFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for video filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "videoFilter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckBasicVideoFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+            Thread.sleep(30000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for Audio filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "AudioFilter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckBasicAudioFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+            Thread.sleep(30000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for Font filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "FontFilter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckBasicFontFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+            Thread.sleep(30000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for Folder filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "FolderFilter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckBasicFolderFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+            Thread.sleep(30000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test(enabled = true, priority = 1, description = "Test Case - to check for Image +AspectRatio filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "Image-Aspectratio-Filter.csv", path = "/resources/input-data/Assets-Service")
+    public void testCheckMutipleImageAspectRatioFilter(String uri) {
+
+        try {
+            response = arb.getassetFilter(uri);
+            Thread.sleep(30000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
+

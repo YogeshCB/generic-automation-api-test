@@ -1,3 +1,7 @@
-uri,foldername
-/api/v1/assets/folder,Automation-test-Folder
-/api/v1/assets/folder,Automation-test-Folder2
+uri,folder_name,
+/api/v1/assets/folder, Automation-test-Folder
+/api/v1/assets/folder, Automation-test-Folder2
+
+
+
+
