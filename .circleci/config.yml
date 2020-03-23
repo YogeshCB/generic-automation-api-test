@@ -12,9 +12,7 @@ jobs:
       - run:
           name: Download Dependencies
           command: ./gradlew build --refresh-dependencies
-      - run:
-          name: Run Assets Tests
-          command: ./gradlew --stacktrace runTestAssetService -DEnvironment=Production
+
       - run:
           name: Run studio Tests
           command: ./gradlew --stacktrace runTestStudioService -DEnvironment=Production

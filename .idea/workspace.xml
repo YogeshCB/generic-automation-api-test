@@ -69,11 +69,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-822">
-              <caret line="1597" column="161" selection-start-line="1597" selection-start-column="157" selection-end-line="1597" selection-end-column="161" />
+            <state relative-caret-position="591">
+              <caret line="1389" lean-forward="true" selection-start-line="1389" selection-end-line="1389" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,31 +94,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/uploadConfirm.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="426">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -133,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -149,10 +160,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/JSONFileReader.java">
+        <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state>
+              <caret selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -206,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/JpeFileUpload.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/PNGUpload.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/upload-asset-inside-folder.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/uzipTest.csv" />
@@ -218,7 +228,6 @@
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/OTFUpload.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/ZipFileUpload.csv" />
         <option value="$PROJECT_DIR$/testngKubricInferenceService.xml" />
-        <option value="$PROJECT_DIR$/testAssetsService.xml" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/videoFilter.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/Imagefilter.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/AudioFilter.csv" />
@@ -250,13 +259,15 @@
         <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareshot.json" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareshot.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv" />
         <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/testAssetsService.xml" />
+        <option value="$PROJECT_DIR$/testStudioService.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java" />
       </list>
     </option>
   </component>
@@ -789,20 +800,6 @@
     <SUITE FILE_PATH="coverage/kubric_backend_test$_Users_yogesh_Documents_kubric_backend_test_build_gradle.ic" NAME="$PROJECT_DIR$/build.gradle Coverage Results" MODIFIED="1569926717609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/uzipTest.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -1159,30 +1156,10 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-822">
-          <caret line="1597" column="161" selection-start-line="1597" selection-start-column="157" selection-end-line="1597" selection-end-column="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,22 +1173,60 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+    <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="426">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="1389" lean-forward="true" selection-start-line="1389" selection-end-line="1389" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

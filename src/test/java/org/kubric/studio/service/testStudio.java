@@ -116,7 +116,7 @@ public class testStudio {
 
     }
 
-    @Test(enabled = true, priority = 0, description = "Test Case - To share a campaign inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @Test(enabled = true, priority = 0, description = "Test Case - To share a shot inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "shareshot.csv", path = "/resources/input-data/Sotoryboard-Service")
     public void shareshot(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/shreShot.json");
@@ -127,7 +127,7 @@ public class testStudio {
 
 
     }
-    @Test(enabled = true, priority = 0, description = "Test Case - To unshare a campaign inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @Test(enabled = true, priority = 0, description = "Test Case - To unshare a shot inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "Unshareshot.csv", path = "/resources/input-data/Sotoryboard-Service")
     public void unshareshot(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/unshareshot.json");
