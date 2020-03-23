@@ -46,5 +46,5 @@ task runTestStudioService(type: JavaExec, dependsOn: 'classes') {
             project.sourceSets.test.compileClasspath,
             project.sourceSets.main.runtimeClasspath,
             project.sourceSets.test.runtimeClasspath)
-    args = ["-parallel", "class", "-threadcount", "1", "-d", "./build/test-results", "./testStudioService.xml"]
+    args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testStudioService.xml"]
 }
