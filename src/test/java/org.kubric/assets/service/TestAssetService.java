@@ -1460,9 +1460,8 @@ public class TestAssetService {
             JsonObject jsonReqBody = arb.createRequestBody(jsonFileObject);
             jsonReqBody.addProperty("name", Foldername);
             System.out.println(jsonReqBody);
-            System.out.println(uri);
 
-            response = arb.sendGenericPostRequestUploadUrl(uri, jsonReqBody);
+            response = arb.sendGenericPostRequestUploadUrl((uri+"?workspace=b98b4bf4-989c-49cd-9597-b287cb8436df"), jsonReqBody);
             // Assert.assertTrue(task_progress.equals(Foldername));
 
 
@@ -1482,7 +1481,7 @@ public class TestAssetService {
             JsonObject temp = new JsonObject();
             temp.addProperty("filename", (checkFileName.replaceAll("[\\[\\]\\(\\)]", "")));
             temp.addProperty("type", "image");
-            temp.addProperty("path", "/root/3911ce73-bd08-41c8-9489-da1d4854588c");
+            temp.addProperty("path", "/root/2bf1d271-a575-4dee-a8a5-3f4e0ba01cae/844b9640-7a06-45d5-ad8f-3cb28c3b8c15");
             details.add(temp);
             jsonReqBody.add("details", details);
             response = arb.sendRequestAssets(jsonReqBody, uri);
@@ -1543,7 +1542,7 @@ public class TestAssetService {
             JsonObject temp = new JsonObject();
             temp.addProperty("filename", (checkFileName.replaceAll("[\\[\\]\\(\\)]", "")));
             temp.addProperty("type", "image");
-            temp.addProperty("path", "root/3911ce73-bd08-41c8-9489-da1d4854588c/420a16a8-098c-4c03-aafe-14d875c17888");
+            temp.addProperty("path", "/root/2bf1d271-a575-4dee-a8a5-3f4e0ba01cae/844b9640-7a06-45d5-ad8f-3cb28c3b8c15");
             details.add(temp);
             jsonReqBody.add("details", details);
             response = arb.sendRequestAssets(jsonReqBody, uri);
@@ -1596,7 +1595,7 @@ public class TestAssetService {
 
     @Test(enabled = true, priority = 1, description = "Test case- To check if ZIP can be uploaded inside nested folder", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "ZipFileUpload.csv", path = "/resources/input-data/Assets-Service")
-    public void testUploadZipInsideNestedCreatedFolder(String uri, String checkFileName, String japthFilename, String uri2, String uri3, String folderpath, String Jpath_ID,String uri4) {
+    public void testUploadZipInsideNestedCreatedFolder(String uri, String checkFileName, String uri2, String uri3, String folderpath, String Jpath_ID,String uri4) {
 
         try {
             JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Assets-Service/Genericupload.json");
@@ -1605,7 +1604,7 @@ public class TestAssetService {
             JsonObject temp = new JsonObject();
             temp.addProperty("filename", (checkFileName.replaceAll("[\\[\\]\\(\\)]", "")));
             temp.addProperty("type", "image");
-            temp.addProperty("path", "root/3911ce73-bd08-41c8-9489-da1d4854588c/420a16a8-098c-4c03-aafe-14d875c17888");
+            temp.addProperty("path", "/root/2bf1d271-a575-4dee-a8a5-3f4e0ba01cae/844b9640-7a06-45d5-ad8f-3cb28c3b8c15");
             details.add(temp);
             jsonReqBody.add("details", details);
             response = arb.sendRequestAssets(jsonReqBody, uri);

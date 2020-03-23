@@ -70,10 +70,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="166" column="110" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="110" />
+            <state relative-caret-position="-822">
+              <caret line="1597" column="161" selection-start-line="1597" selection-start-column="157" selection-end-line="1597" selection-end-column="161" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,43 +82,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareCampaigns.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareCampigns.csv">
+        <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/ZipFileUpload.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/uploadConfirm.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/Genericupload.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -126,49 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/JSONFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareCampaigns.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/CSVParametersProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="457" column="46" selection-start-line="457" selection-start-column="31" selection-end-line="457" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="1602" column="75" lean-forward="true" selection-start-line="1601" selection-start-column="12" selection-end-line="1602" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -199,7 +160,13 @@
       <find>shot</find>
       <find>delete</find>
       <find>del</find>
+      <find>nested</find>
+      <find>folder</find>
       <find>get</find>
+      <find>testUploadAssetsInsideNestedCreatedFolder</find>
+      <find>testUploadAssetsInsideNewlyCreatedFolder</find>
+      <find>testUploadZipInsideNestedCreatedFolder</find>
+      <find>uri4</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -216,14 +183,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/TTFUpload.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/UploadJpeg.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/CreateFolder.json" />
-        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/uploadConfirm.json" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/JpeFileUpload.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/PNGUpload.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/upload-asset-inside-folder.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/uzipTest.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/DownloadAssets.csv" />
         <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json" />
@@ -242,8 +204,6 @@
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/FontFilter.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/FolderFilter.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/Image-Aspectratio-Filter.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv" />
         <option value="$PROJECT_DIR$/resources/config-files/Production/InferenceService.properties" />
         <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/storyboard/service/storyboardServiceRequestBuilder.java" />
@@ -262,11 +222,18 @@
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getCampaigns.csv" />
         <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/shareCampaigns.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareCampaigns.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareCampaigns.json" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareCampigns.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.json" />
+        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareshot.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareshot.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv" />
         <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
+        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
       </list>
     </option>
   </component>
@@ -325,7 +292,7 @@
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="input-data" type="462c0819:PsiDirectoryNode" />
-              <item name="Sotoryboard-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Assets-Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
@@ -339,13 +306,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="request-json" type="462c0819:PsiDirectoryNode" />
               <item name="Assets-Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="request-json" type="462c0819:PsiDirectoryNode" />
-              <item name="Storyboard-Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
@@ -448,7 +408,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testStudio.unshareshot">
+  <component name="RunManager" selected="TestNG.TestAssetService.testUploadZipInsideNestedCreatedFolder">
     <configuration name="kubric-backend-test [TestInfernceService]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="env">
@@ -549,6 +509,33 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestAssetService.testUploadZipInsideNestedCreatedFolder" type="TestNG" nameIsGenerated="true">
+      <module name="kubric-backend-test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kubric.assets.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.kubric.assets.service" />
+      <option name="MAIN_CLASS_NAME" value="org.kubric.assets.service.TestAssetService" />
+      <option name="METHOD_NAME" value="testUploadZipInsideNestedCreatedFolder" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DEnvironment=Production" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestInferenceService" type="TestNG" nameIsGenerated="true">
       <module name="kubric-backend-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -625,33 +612,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testStudio.unshareshot" type="TestNG" nameIsGenerated="true">
-      <module name="kubric-backend-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kubric.assets.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.studio.service" />
-      <option name="MAIN_CLASS_NAME" value="org.kubric.studio.service.testStudio" />
-      <option name="METHOD_NAME" value="unshareshot" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -DEnvironment=Production" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Gradle.kubric-backend-test [TestInfernceService]" />
       <item itemvalue="Gradle.kubric-backend-test [runTestTestAssetService]" />
@@ -660,7 +620,7 @@
       <item itemvalue="Gradle.kubric-backend-test [runTestAssetService]" />
       <item itemvalue="TestNG.TestLiveBannerService" />
       <item itemvalue="TestNG.TestInferenceService" />
-      <item itemvalue="TestNG.testStudio.unshareshot" />
+      <item itemvalue="TestNG.TestAssetService.testUploadZipInsideNestedCreatedFolder" />
     </list>
     <recent_temporary>
       <list>
@@ -686,35 +646,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testStudio - 2020.03.22 at 01h 12m 36s.xml">
-      <configuration name="testStudio" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 30m 22s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateShot - 2020.03.22 at 01h 14m 35s.xml">
-      <configuration name="testStudio.updateShot" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 30m 41s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_createcampaigns - 2020.03.23 at 05h 42m 51s.xml">
-      <configuration name="testStudio.createcampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 32m 48s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_getcampaigns - 2020.03.23 at 05h 49m 36s.xml">
-      <configuration name="testStudio.getcampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 33m 08s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_sharecampaigns - 2020.03.23 at 06h 00m 15s.xml">
-      <configuration name="testStudio.sharecampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 34m 15s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_sharecampaigns - 2020.03.23 at 06h 00m 43s.xml">
-      <configuration name="testStudio.sharecampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 35m 26s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_sharecampaigns - 2020.03.23 at 06h 01m 14s.xml">
-      <configuration name="testStudio.sharecampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testCreateNestedFolder - 2020.03.23 at 06h 38m 13s.xml">
+      <configuration name="TestAssetService.testCreateNestedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_unsharecampaigns - 2020.03.23 at 06h 05m 00s.xml">
-      <configuration name="testStudio.unsharecampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testUploadAssetsInsideNewlyCreatedFolder - 2020.03.23 at 06h 44m 17s.xml">
+      <configuration name="TestAssetService.testUploadAssetsInsideNewlyCreatedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_unsharecampaigns - 2020.03.23 at 06h 06m 23s.xml">
-      <configuration name="testStudio.unsharecampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testUploadZipInsideNestedCreatedFolder - 2020.03.23 at 06h 45m 50s.xml">
+      <configuration name="TestAssetService.testUploadZipInsideNestedCreatedFolder" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_findcampaigns - 2020.03.23 at 06h 16m 34s.xml">
-      <configuration name="testStudio.findcampaigns" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testUploadZipInsideNestedCreatedFolder - 2020.03.23 at 06h 45m 57s.xml">
+      <configuration name="TestAssetService.testUploadZipInsideNestedCreatedFolder" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -801,60 +761,10 @@
     <SUITE FILE_PATH="coverage/kubric_backend_test$_Users_yogesh_Documents_kubric_backend_test_build_gradle.ic" NAME="$PROJECT_DIR$/build.gradle Coverage Results" MODIFIED="1569926717609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/DownloadAssets.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/DownloadMutipleFolder.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/Mp4Upload.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="208" selection-start-line="4" selection-start-column="208" selection-end-line="4" selection-end-column="208" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/MKVFileupload.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/OTFUpload.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/ZipFileUpload.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="184" selection-start-line="1" selection-start-column="184" selection-end-line="1" selection-end-column="184" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -955,16 +865,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" lean-forward="true" selection-end-line="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/test/classes/org/kubric/assets/service/TestAssetService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
@@ -998,27 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/Genericupload.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/assetsServiceRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1040,13 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1077,16 +949,6 @@
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updateShot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -1157,30 +1019,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="1602" column="75" lean-forward="true" selection-start-line="1601" selection-start-column="12" selection-end-line="1602" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="457" column="46" selection-start-line="457" selection-start-column="31" selection-end-line="457" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/JSONFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareCampaigns.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1205,6 +1043,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.json">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareshot.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updateShot.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareCampigns.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
@@ -1215,10 +1090,65 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv">
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareshot.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/JSONFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/uploadConfirm.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/Genericupload.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="185" selection-start-column="185" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -1227,16 +1157,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="166" column="110" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="110" />
+        <state relative-caret-position="258">
+          <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="1597" column="161" selection-start-line="1597" selection-start-column="157" selection-end-line="1597" selection-end-column="161" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/ZipFileUpload.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>

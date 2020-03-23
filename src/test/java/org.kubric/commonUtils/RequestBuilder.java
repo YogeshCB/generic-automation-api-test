@@ -190,11 +190,14 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .contentType("")
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
                         .spec(request)
                         .body(jsonReqBody.toString())
-        .header("Content-Type" , "application/json")
                         .when()
+                        .header("Content-Type" , "application/json")
+                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+
+
                         .post(uri)
                         .then().log().ifError();
         Reporter.log("RESPONSE : ", 1, true);
