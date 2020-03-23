@@ -1,0 +1,4 @@
+uri
+/api/v1/campaigns?content_type=banner&workspace_id=b98b4bf4-989c-49cd-9597-b287cb8436df
+/api/v1/campaigns?content_type=marketing&workspace_id=b98b4bf4-989c-49cd-9597-b287cb8436df
+/api/v1/campaigns?content_type=catalogue&workspace_id=b98b4bf4-989c-49cd-9597-b287cb8436df

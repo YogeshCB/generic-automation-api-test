@@ -233,6 +233,30 @@ public class RequestBuilder {
 
     }
 
+
+    public ValidatableResponse sendformRequestCreateShot(String pathUri)
+    {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .formParam("name", "AutomationTestShot")
+                        .formParam("template", "{ \"duration\": 1000, \"objects\": [ { \"color\": \"{{bg_color}}\", \"position\": { \"y\": 0, \"x\": 0 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"url\": \"http://lh3.googleusercontent.com/PExCKPRh0mTv51xfQuZF0-xZ9KxEeVvjJ5MFqUDJZp-d3hxLuR27tl-hqPDaRwX0kgG8YkTjaHZoAe2osjAFxsmv=s0\", \"position\": { \"y\": 0, \"x\": \"[[{{global_width}}/2]]\" }, \"type\": \"image\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"color\": \"white\", \"text\": \"{{text1}}\", \"fontSize\": 50, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2)  - 100]]\", \"x\": 100 } }, { \"color\": \"white\", \"text\": \"{{text2}}\", \"fontSize\": 70, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2) ]]\", \"x\": 100 } }, { \"color\": \"white\", \"position\": { \"y\": \"[[({{global_height}}/2)-50]]\", \"x\": 100 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": 4, \"w\": 400 } } ], \"size\": { \"h\": \"{{global_height}}\", \"w\": \"{{global_width}}\" } }")
+                        .formParam("parameters", "{ \"global_width\": { \"default\": 1200, \"type\": \"number\", \"title\": \"Overall Width\" }, \"bg_color\": { \"default\": \"#232323\", \"type\": \"color\", \"title\": \"BG Color\" }, \"text1\": { \"default\": \"This Summer\", \"type\": \"text\", \"title\": \"Heading\" }, \"global_height\": { \"default\": 700, \"type\": \"number\", \"title\": \"Overall Height\" }, \"text2\": { \"default\": \"Lets Roll\", \"type\": \"text\", \"title\": \"Sub Heading\" } }")
+                        .formParam("status", "1")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .post(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+        return response;
+
+    }
     public ValidatableResponse getRequest(String pathUri)
     {
 
@@ -244,6 +268,9 @@ public class RequestBuilder {
                          given()
                         .spec(request)
                         .queryParam("content_type","feed,marketing")
+                                 .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                                 .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+
                         .when()
                         .get(pathUri)
                         .then().log().ifError();
@@ -285,6 +312,28 @@ public class RequestBuilder {
                         .spec(request)
                         .when()
                         .patch(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+
+    }
+
+    public ValidatableResponse delteRequest(String pathUri)
+    {
+
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .delete(pathUri)
                         .then().log().ifError();
         Reporter.log("RESPONSE : ", 1, true);
         Reporter.log(response.extract().body().asString(), 1, true);
@@ -338,8 +387,7 @@ public class RequestBuilder {
 
 
     }
-        public ValidatableResponse getassetFilter(String uri)
-        {
+        public ValidatableResponse getassetFilter(String uri) {
 
             Reporter.log("Base URL: " + baseUrl, 1, true);
             Reporter.log("Endpoint: " + uri, 1, true);
@@ -349,7 +397,7 @@ public class RequestBuilder {
                     given()
                             .spec(request)
                             .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
-                            .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                            .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
                             .when()
                             .get(uri)
                             .then().log().ifError();
@@ -357,9 +405,80 @@ public class RequestBuilder {
             Reporter.log(response.extract().body().asString(), 1, true);
 
             return response;
+        }
+
+            public ValidatableResponse patchformRequestCreateShot(String pathUri) {
+                Reporter.log("Base URL: " + baseUrl, 1, true);
+                Reporter.log("Endpoint: " + pathUri, 1, true);
+                Reporter.log("\nFINAL REQUEST: ", 1, true);
+                Reporter.log("--------------", 1, true);
+                ValidatableResponse response =
+                        given()
+                                .spec(request)
+                                .formParam("template", "{ \"duration\": 1000, \"objects\": [ { \"color\": \"{{bg_color}}\", \"position\": { \"y\": 0, \"x\": 0 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"url\": \"https://lh3.googleusercontent.com/kcRJEvRnL6iIvRNqzAQeiTtah12tZjxUxtwnnlvCl6z9GKVfh1p-NRI1u_YKfRLOS5lPtKhOCN4O5x3zVg_w2CI=s0\", \"position\": { \"y\": 0, \"x\": \"[[{{global_width}}/2]]\" }, \"type\": \"image\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"color\": \"white\", \"text\": \"{{text1}}\", \"fontSize\": 50, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2)  - 100]]\", \"x\": 100 } }, { \"color\": \"white\", \"text\": \"{{text2}}\", \"fontSize\": 70, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2) ]]\", \"x\": 100 } }, { \"color\": \"white\", \"position\": { \"y\": \"[[({{global_height}}/2)-50]]\", \"x\": 100 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": 4, \"w\": 400 } } ], \"size\": { \"h\": \"{{global_height}}\", \"w\": \"{{global_width}}\" } }")
+
+                                .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                                .when()
+                                .put(pathUri)
+                                .then().log().ifError();
+                Reporter.log("RESPONSE : ", 1, true);
+                Reporter.log(response.extract().body().asString(), 1, true);
+                return response;
+            }
+
+                public ValidatableResponse sendCreateCampaigns(String pathUri, String content_type)
+                {
+                    Reporter.log("Base URL: " + baseUrl, 1, true);
+                    Reporter.log("Endpoint: " + pathUri, 1, true);
+                    Reporter.log("\nFINAL REQUEST: ", 1, true);
+                    Reporter.log("--------------", 1, true);
+                    ValidatableResponse response =
+                            given()
+                                    .spec(request)
+                                    .formParam("name", "AutomationTestCamp")
+                                    .formParam("desc", "test")
+                                    .formParam("display_name", "test camp")
+                                    .formParam("intent","Discovery")
+                                    .formParam("audiences", "6676884")
+                                    .formParam("channels","{\"type\":\"fb\", \"meta\":{\"fb_id\":\"100012\"}}")
+                                    .formParam("template","e57de14b-205b-495e-99e4-fa5425895c20")
+                                    .formParam("workspace_id","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                                    .formParam("content_type",content_type)
+                                    .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                                    .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                                    .when()
+                                    .post(pathUri)
+                                    .then().log().ifError();
+                    Reporter.log("RESPONSE : ", 1, true);
+                    Reporter.log(response.extract().body().asString(), 1, true);
+                    return response;
+
+                }
+
+    public ValidatableResponse patchsharecamps(String uri, JsonObject jsonReqBody)
+    {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        Reporter.log("\n" + jsonReqBody, 1, true);
+
+        ValidatableResponse response =
+                given()
+                        .contentType("")
+                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .spec(request)
+                        .body(jsonReqBody.toString())
+                        .header("Content-Type" , "application/json")
+                        .when()
+                        .patch(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
 
     }
 
+            }
 
-
-}

@@ -137,6 +137,26 @@ public class RequestBuilderLivebanners {
         return response;
 
     }
+    public ValidatableResponse deleteRequest(String pathUri)
+    {
+
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .queryParam("content_type","feed,marketing")
+                        .when()
+                        .delete(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+
+    }
 
     public ValidatableResponse getLiveRequest(String pathUri)
     {
