@@ -260,7 +260,6 @@ public class testStudio {
     @Test(enabled = true, priority = 0, description = "Test Case - To find a pinned Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "pinnedStoryboards.csv", path = "/resources/input-data/Sotoryboard-Service")
     public void findPinnedStoryboard(String uri) throws FileNotFoundException {
-
         response = srb.getRequest(uri);
         String status = response.extract().jsonPath().getString("status");
         Assert.assertTrue(status.equals("200"));
@@ -274,7 +273,6 @@ public class testStudio {
     @DataFileParameters(name = "deleteStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
     public void deleteStoryboard(String uri) throws FileNotFoundException {
         uri = uri+Id_to_delete_Storyboard+"?workspace_id=b98b4bf4-989c-49cd-9597-b287cb8436df";
-
         response = srb.getRequest(uri);
         String status = response.extract().jsonPath().getString("status");
         Assert.assertTrue(status.equals("200"));
@@ -282,15 +280,12 @@ public class testStudio {
 
     }
 
-    @Test(enabled = true, priority = 0, description = "Test Case - To get Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @Test(enabled = true, priority = 0, description = "Test Case - To update Storyboard and its version inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "getStoryboardsbyversion.csv", path = "/resources/input-data/Sotoryboard-Service")
     public void getVersionStoryboard(String uri) throws FileNotFoundException {
-
         response = srb.getRequest(uri);
-
         String status = response.extract().jsonPath().getString("status");
         Assert.assertTrue(status.equals("200"));
-
 
     }
 
