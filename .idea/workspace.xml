@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
@@ -89,6 +89,24 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testStudioService.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -117,17 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="274">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -145,32 +163,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareStoryboard.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareStoryboard.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
@@ -258,8 +256,6 @@
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv" />
         <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json" />
-        <option value="$PROJECT_DIR$/testAssetsService.xml" />
-        <option value="$PROJECT_DIR$/testStudioService.xml" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/createStoryboard.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createStoryboard.csv" />
         <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboard.csv" />
@@ -278,8 +274,10 @@
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java" />
+        <option value="$PROJECT_DIR$/testAssetsService.xml" />
+        <option value="$PROJECT_DIR$/testStudioService.xml" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -747,9 +745,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="24" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993464" visible="true" weight="0.32356533" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993464" visible="true" weight="0.32356533" />
       <window_info id="Structure" order="1" sideWeight="0.5006536" side_tool="true" weight="0.26007327" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -763,7 +760,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4969475" visible="true" weight="0.25561497" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4969475" visible="true" weight="0.25561497" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.43894994" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993895" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.35828876" />
@@ -1037,20 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createStoryboard.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="105">
@@ -1234,20 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1255,6 +1224,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
         </state>
       </provider>
     </entry>
