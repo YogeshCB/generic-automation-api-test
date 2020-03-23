@@ -38,3 +38,13 @@ task runTestAssetService(type: JavaExec, dependsOn: 'classes') {
                 project.sourceSets.test.runtimeClasspath)
         args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testAssetsService.xml"]
     }
+task runTestStudioService(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.testng.TestNG'
+    systemProperties = System.properties
+    classpath = files("./src/test/java",
+            project.sourceSets.main.compileClasspath,
+            project.sourceSets.test.compileClasspath,
+            project.sourceSets.main.runtimeClasspath,
+            project.sourceSets.test.runtimeClasspath)
+    args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testStudioService.xml"]
+}

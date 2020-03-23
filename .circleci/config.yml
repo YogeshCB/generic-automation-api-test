@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Run Assets Tests
           command: ./gradlew --stacktrace runTestAssetService -DEnvironment=Production
-
+          command: ./gradlew --stacktrace runTestStudioService -DEnvironment=Production
       - run:
           name: Save test results
           command: |

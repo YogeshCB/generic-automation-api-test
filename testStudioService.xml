@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="kubric-backend-test" >
+    <test name="kubric-backend-sanity-test" preserve-order="true">
+        <classes>
+            <class name="org.kubric.studio.service.testStudio"/>
+        </classes>
+    </test>
+</suite>
+
+
