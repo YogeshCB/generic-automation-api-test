@@ -3,7 +3,3 @@ uri,content_type
 /api/v1/campaigns,feed
 /api/v1/campaigns,marketing
 /api/v1/campaigns,catalogue
-/api/v1/campaigns,banner
-/api/v1/campaigns,feed
-/api/v1/campaigns,marketing
-/api/v1/campaigns,catalogue

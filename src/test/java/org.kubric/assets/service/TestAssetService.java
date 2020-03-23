@@ -1798,7 +1798,7 @@ public class TestAssetService {
 
     @Test(enabled = true, priority = 1, description = "Test Case - to check for Image +AspectRatio filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "Image-Aspectratio-Filter.csv", path = "/resources/input-data/Assets-Service")
-    public void testCheckMutipleImageAspectRatioFilter(String uri) {
+    public void testCheckMutipleImageAspectRatioFilter2(String uri) {
 
         try {
             response = arb.getassetFilter(uri);

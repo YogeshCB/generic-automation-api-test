@@ -25,7 +25,8 @@ public class testStudio {
     studioServiceRequestBuilder srb;
     JSONFileReader jReader;
     String Id_to_delete=null;
-
+    String name2= null;
+    String Id_to_delete_Storyboard=null;
 
 
     @BeforeClass
@@ -118,7 +119,7 @@ public class testStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - To share a shot inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "shareshot.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void shareshot(String uri) throws FileNotFoundException {
+    public void shareShot(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/shreShot.json");
         JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
         response = srb.patchsharecamps(uri, jsonReqBody);
@@ -129,7 +130,7 @@ public class testStudio {
     }
     @Test(enabled = true, priority = 0, description = "Test Case - To unshare a shot inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "Unshareshot.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void unshareshot(String uri) throws FileNotFoundException {
+    public void unshareShot(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/unshareshot.json");
         JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
         response = srb.patchsharecamps(uri, jsonReqBody);
@@ -142,7 +143,7 @@ public class testStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - To create a campaign inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "createcampaigns.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void createcampaigns(String uri, String content_type)
+    public void createCampaigns(String uri, String content_type)
     {
         response = srb.sendCreateCampaigns(uri,content_type);
         String status = response.extract().jsonPath().getString("status");
@@ -153,7 +154,7 @@ public class testStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - To get a campaign inside testing workspace by campaign id", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "createcampaigns.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void getcampaigns(String uri, String content_type)
+    public void getCampaigns(String uri, String content_type)
     {
         response = srb.getassetFilter(uri);
         String status = response.extract().jsonPath().getString("status");
@@ -165,7 +166,7 @@ public class testStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - To share a campaign inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "shareCampaigns.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void sharecampaigns(String uri) throws FileNotFoundException {
+    public void shareCampaigns(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/shareCampaigns.json");
         JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
         response = srb.patchsharecamps(uri, jsonReqBody);
@@ -176,7 +177,7 @@ public class testStudio {
     }
     @Test(enabled = true, priority = 0, description = "Test Case - To unshare a campaign inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "unshareCampigns.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void unsharecampaigns(String uri) throws FileNotFoundException {
+    public void unshareCampaigns(String uri) throws FileNotFoundException {
         JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/unshareCampaigns.json");
         JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
         response = srb.patchsharecamps(uri, jsonReqBody);
@@ -188,7 +189,7 @@ public class testStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - To find a campaign inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "findCampaigns.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void findcampaigns(String uri) throws FileNotFoundException {
+    public void findCampaigns(String uri) throws FileNotFoundException {
 
         response = srb.getRequest(uri);
         String status = response.extract().jsonPath().getString("status");
@@ -196,5 +197,116 @@ public class testStudio {
 
 
     }
+
+
+    @Test(enabled = true, priority = 0, description = "Test Case - Top create a storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "createStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void createStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.sendformRequestCreateStoryboard(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+        String name2 = response.extract().jsonPath().getString("data.name");
+        Id_to_delete_Storyboard = response.extract().jsonPath().getString("data.uid");
+
+
+    }
+    @Test(enabled = true, priority = 0, description = "Test Case - Top get a storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "getStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void getStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.getRequest(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To share a Storyboard inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "shareStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void shareStoryboard(String uri) throws FileNotFoundException {
+        JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/shareStoryboards.json");
+        JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
+        response = srb.patchsharecamps(uri, jsonReqBody);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+    @Test(enabled = true, priority = 0, description = "Test Case - To unshare a Storyboard inside testing workspace with teams", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "unshareStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void unshareStoryboard(String uri) throws FileNotFoundException {
+        JsonObject jsonFileObject = jReader.readJSONFiles("/resources/request-json/Storyboard-Service/unshareStoryboards.json");
+        JsonObject jsonReqBody = srb.createRequestBody(jsonFileObject);
+        response = srb.patchsharecamps(uri, jsonReqBody);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To find a Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "findStoryboards.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void findStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.getRequest(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To find a pinned Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "pinnedStoryboards.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void findPinnedStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.getRequest(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To delete Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "deleteStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void deleteStoryboard(String uri) throws FileNotFoundException {
+        uri = uri+Id_to_delete_Storyboard+"?workspace_id=b98b4bf4-989c-49cd-9597-b287cb8436df";
+
+        response = srb.getRequest(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To get Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "getStoryboardsbyversion.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void getVersionStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.getRequest(uri);
+
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+
+    @Test(enabled = true, priority = 0, description = "Test Case - To get Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+    @DataFileParameters(name = "updatestoryboards.csv", path = "/resources/input-data/Sotoryboard-Service")
+    public void updateStoryboard(String uri) throws FileNotFoundException {
+
+        response = srb.sendformRequestCreateStoryboard2(uri);
+        String status = response.extract().jsonPath().getString("status");
+        Assert.assertTrue(status.equals("200"));
+
+
+    }
+
+
 }
+
 

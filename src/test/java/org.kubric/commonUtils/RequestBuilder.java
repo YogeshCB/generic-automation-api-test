@@ -458,8 +458,7 @@ public class RequestBuilder {
 
                 }
 
-    public ValidatableResponse patchsharecamps(String uri, JsonObject jsonReqBody)
-    {
+    public ValidatableResponse patchsharecamps(String uri, JsonObject jsonReqBody) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + uri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -469,10 +468,10 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .contentType("")
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
                         .spec(request)
                         .body(jsonReqBody.toString())
-                        .header("Content-Type" , "application/json")
+                        .header("Content-Type", "application/json")
                         .when()
                         .patch(uri)
                         .then().log().ifError();
@@ -480,8 +479,58 @@ public class RequestBuilder {
         Reporter.log(response.extract().body().asString(), 1, true);
 
         return response;
+    }
+
+        public ValidatableResponse sendformRequestCreateStoryboard(String pathUri)
+        {
+            Reporter.log("Base URL: " + baseUrl, 1, true);
+            Reporter.log("Endpoint: " + pathUri, 1, true);
+            Reporter.log("\nFINAL REQUEST: ", 1, true);
+            Reporter.log("--------------", 1, true);
+            ValidatableResponse response =
+                    given()
+                            .spec(request)
+                            .formParam("name", "AutomationTestShot")
+                            .formParam("shots","1c9de524-b7e8-4612-8acc-80756f0d5896")
+                            .formParam("shot_versions","79dbeadd-4c30-407a-ae65-1dd67dfb0fda")
+                            .formParam("public","0")
+                            .formParam("status","1")
+                            .formParam("parameters","global_width: 1200, bg_color: \"#232323\", text1: \"This Summer\", global_height: 700, text2: \"Lets Roll\"")
+                            .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                            .when()
+                            .post(pathUri)
+                            .then().log().ifError();
+            Reporter.log("RESPONSE : ", 1, true);
+            Reporter.log(response.extract().body().asString(), 1, true);
+            return response;
+
+        }
+
+
+    public ValidatableResponse sendformRequestCreateStoryboard2(String pathUri)
+    {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .formParam("public","1")
+                        .formParam("status","1")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .put(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+        return response;
 
     }
 
-            }
+    }
+
+
 
