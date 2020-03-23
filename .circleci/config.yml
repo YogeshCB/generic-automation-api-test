@@ -14,10 +14,8 @@ jobs:
           command: ./gradlew build --refresh-dependencies
       - run:
           name: Run Assets Tests
-          command: ./gradlew --stacktrace runTestAssetService -DEnvironment=Production
-      - run:
-          name: Run studio Tests
-          command: ./gradlew --stacktrace runTestStudioService -DEnvironment=Production
+          command: ./gradlew --stacktrace runAllTest -DEnvironment=Production
+
       - run:
           name: Save test results
           command: |
