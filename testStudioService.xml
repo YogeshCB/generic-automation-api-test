@@ -2,7 +2,8 @@
 <suite name="kubric-backend-test">
     <test name="kubric-backend-sanity-test" preserve-order="true">
         <classes>
-            <class name="org.kubric.studio.service.TestStudio"/>
+            <class name=" org.kubric.studio.service.TestStudio"/>
+
         </classes>
     </test>
 </suite>
