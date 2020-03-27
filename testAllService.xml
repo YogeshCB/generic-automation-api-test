@@ -4,8 +4,6 @@
         <classes>
             <class name="org.kubric.assets.service.TestAssetService"/>
             <class name=" org.kubric.studio.service.TestStudio"/>
-
-
         </classes>
     </test>
 </suite>
