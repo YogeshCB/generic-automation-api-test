@@ -26,4 +26,4 @@ jobs:
           path: ~/test-results
       - store_artifacts:
           path: ~/test-r
-          esults/junit
+          results/junit
