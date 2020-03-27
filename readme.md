@@ -5,7 +5,7 @@ To test kubric backend api
 
 # To run the project form Circle ci 
 
-# Go to the latest job and re run it - Circle ci will run all the test cases.
+Go to the latest job and re run it - Circle ci will run all the test cases.
 
 https://app.circleci.com/pipelines/bitbucket/craftworkx/kubric-backend-test/83/workflows/2ea9d604-0245-47ae-b8da-608a725aeda7/jobs/87
 
