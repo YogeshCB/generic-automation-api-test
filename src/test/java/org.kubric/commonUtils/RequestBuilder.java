@@ -399,8 +399,8 @@ public class RequestBuilder {
             ValidatableResponse response =
                     given()
                             .spec(request)
-                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                             .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                             .when()
                             .get(uri)
                             .then().log().ifError();
@@ -530,7 +530,26 @@ public class RequestBuilder {
 
     }
 
-    }
+    public ValidatableResponse getTransforms(String uri) {
+
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("Content-Type", "application/json")
+                        .when()
+                        .get(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+
+    }}
 
 
 

@@ -1807,5 +1807,17 @@ public class TestAssetService {
             e.printStackTrace();
         }
     }
+
+        @Test(enabled = true, priority = 1, description = "Test Case - to check for Image +AspectRatio filters)", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
+        @DataFileParameters(name = "assetTransformService.csv", path = "/resources/input-data/Assets-Service")
+        public void testtransforms(String uri) {
+
+            try {
+                response = arb.getTransforms(uri);
+                Thread.sleep(30000);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+    }
 }
 

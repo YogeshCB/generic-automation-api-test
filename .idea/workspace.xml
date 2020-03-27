@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+    <option name="COMMAND_LINE_OPTIONS" value="--stacktrace" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67aa892d-e048-4d0e-b40b-2ea7dd222391" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/kubric/inference/service/TestInferenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/CSVParametersProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/DataFileParameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/JSONFileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/PropertyReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/RequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/RequestBuilderLivebanners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/inference/service/InferenceServiceRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/inference/service/TestInferenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/livebanners/service/LiveBannerServiceRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/livebanners/service/TestLiveBannerService.class" beforeDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
+    <list default="true" id="55214640-bc9b-4390-8520-3eae93d5edbe" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -42,71 +28,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kubric-backend-test" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kubric-backend-test" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1800" column="55" selection-start-line="1800" selection-start-column="55" selection-end-line="1800" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="282" column="55" lean-forward="true" selection-start-line="282" selection-start-column="55" selection-end-line="282" selection-end-column="128" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="370">
+              <caret line="1815" column="38" selection-start-line="1815" selection-start-column="38" selection-end-line="1815" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -114,59 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updatestoryboards.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="193">
+              <caret line="532" column="31" selection-start-line="532" selection-start-column="31" selection-end-line="532" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboardsbyversion.csv">
+        <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/assetTransformService.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareStoryboard.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="75">
+              <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -176,120 +62,21 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>The url is</find>
-      <find>yopgesh</find>
-      <find>the Url is</find>
-      <find>send</find>
-      <find>generic</find>
-      <find>jpeg5</find>
-      <find>gene</find>
-      <find>mov</find>
-      <find>zip</find>
-      <find>34943e3-0f4c-4321-be86-b42a05657afc</find>
-      <find>testZIP</find>
-      <find>334943e3-0f4c-4321-be86-b42a05657afc</find>
-      <find>shot</find>
-      <find>del</find>
-      <find>nested</find>
-      <find>folder</find>
-      <find>get</find>
-      <find>testUploadAssetsInsideNestedCreatedFolder</find>
-      <find>testUploadAssetsInsideNewlyCreatedFolder</find>
-      <find>testUploadZipInsideNestedCreatedFolder</find>
-      <find>create</find>
-      <find>dele</find>
-      <find>barada</find>
-      <find>delete</find>
-      <find>uri4</find>
-      <find>share</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>b98b4bf4-989c-49cd-9597-b287cb8436df</replace>
-      <replace>b98b4bf4-989c-49cd-9597-b287cb8436df</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/videoFilter.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/Imagefilter.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/AudioFilter.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/FontFilter.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/FolderFilter.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/Image-Aspectratio-Filter.csv" />
-        <option value="$PROJECT_DIR$/resources/config-files/Production/InferenceService.properties" />
-        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/storyboard/service/storyboardServiceRequestBuilder.java" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findShots.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilderLivebanners.java" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getShotByUidAndId.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updateShot.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/storyboard/service/testStoryboard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStoryboard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/studioServiceRequestBuilder.java" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getShot.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getCampaigns.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/shareCampaigns.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareCampaigns.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareCampaigns.json" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.json" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareshot.json" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareshot.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json" />
-        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/createStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareStoryboards.json" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareCampigns.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/FIndStoryboards.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findStoryboards.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/pinnedStoryboards.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/deleteStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createcampaigns.csv" />
-        <option value="$PROJECT_DIR$/resources/request-json/Storyboard-Service/shareStoryboards.json" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareStoryboard.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboardsbyversion.csv" />
-        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updatestoryboards.csv" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java" />
-        <option value="$PROJECT_DIR$/testAssetsService.xml" />
-        <option value="$PROJECT_DIR$/testStudioService.xml" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/assetTransformService.csv" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="23" />
+    <option name="x" value="-2" />
+    <option name="y" value="24" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -310,25 +97,7 @@
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config-files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config-files" type="462c0819:PsiDirectoryNode" />
-              <item name="Production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
@@ -341,31 +110,11 @@
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="input-data" type="462c0819:PsiDirectoryNode" />
-              <item name="Sotoryboard-Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="request-json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="request-json" type="462c0819:PsiDirectoryNode" />
               <item name="Assets-Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="request-json" type="462c0819:PsiDirectoryNode" />
-              <item name="Storyboard-Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,23 +145,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org.kubric" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org.kubric" type="462c0819:PsiDirectoryNode" />
-              <item name="commonUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -423,35 +155,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.LayeredImageEditor-LayersManager-LayeredImageEditorPanel.SHOW" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/input-data/Assets-Service/Assets/1-MKV-folder" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/input-data/Assets-Service/Assets/1-MKV-folder" />
-      <recent name="$PROJECT_DIR$/resources/input-data/Assets-Service/Assets/6-ttf-fonts-folder" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.kubric.commonUtils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service" />
-      <recent name="$PROJECT_DIR$/resources/input-data/Assets-Service" />
-      <recent name="$PROJECT_DIR$/src/test/java/org.kubric" />
-      <recent name="$PROJECT_DIR$/src/test/java/org/kubric/inference.service" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle" />
-    </option>
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -465,195 +169,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testStudio.updateStoryboard">
-    <configuration name="kubric-backend-test [TestInfernceService]" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="env">
-          <map>
-            <entry key="Environment" value="Production" />
-          </map>
-        </option>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runTestInfernceService" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kubric-backend-test [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kubric-backend-test [runTestAssetService]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="Production" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runTestAssetService" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kubric-backend-test [runTestTestAssetService]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="DEnvironment=Production" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runTestTestAssetService" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kubric-backend-test [runTestTestLiveBannerService]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runTestTestLiveBannerService" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestInferenceService" type="TestNG" nameIsGenerated="true">
-      <module name="kubric-backend-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.inference.service" />
-      <option name="MAIN_CLASS_NAME" value="org.kubric.inference.service.TestInferenceService" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-DEnvironment=Production" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInferenceService" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="TestAssetService.testtransforms" type="TestNG" nameIsGenerated="true">
       <module name="kubric-backend-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kubric.inference.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.inference.service" />
-      <option name="MAIN_CLASS_NAME" value="org.kubric.inference.service.TestInferenceService" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-DEnvironment=Production" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLiveBannerService" type="TestNG" nameIsGenerated="true">
-      <module name="kubric-backend-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kubric.livebanners.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.livebanners.service" />
-      <option name="MAIN_CLASS_NAME" value="org.kubric.livebanners.service.TestLiveBannerService" />
-      <option name="METHOD_NAME" value="testInferenceCampaign" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-DEnvironment=Staging" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testStudio.updateStoryboard" type="TestNG" nameIsGenerated="true">
-      <module name="kubric-backend-test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kubric.assets.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.studio.service" />
-      <option name="MAIN_CLASS_NAME" value="org.kubric.studio.service.testStudio" />
-      <option name="METHOD_NAME" value="updateStoryboard" />
+      <option name="PACKAGE_NAME" value="org.kubric.assets.service" />
+      <option name="MAIN_CLASS_NAME" value="org.kubric.assets.service.TestAssetService" />
+      <option name="METHOD_NAME" value="testtransforms" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -DEnvironment=Production" />
@@ -669,673 +191,183 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Gradle.kubric-backend-test [TestInfernceService]" />
-      <item itemvalue="Gradle.kubric-backend-test [runTestTestAssetService]" />
-      <item itemvalue="Gradle.kubric-backend-test [clean]" />
-      <item itemvalue="Gradle.kubric-backend-test [runTestTestLiveBannerService]" />
-      <item itemvalue="Gradle.kubric-backend-test [runTestAssetService]" />
-      <item itemvalue="TestNG.TestLiveBannerService" />
-      <item itemvalue="TestNG.TestInferenceService" />
-      <item itemvalue="TestNG.testStudio.updateStoryboard" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.kubric-backend-test [runTestTestAssetService]" />
-        <item itemvalue="Gradle.kubric-backend-test [runTestAssetService]" />
-        <item itemvalue="Gradle.kubric-backend-test [runTestTestLiveBannerService]" />
-        <item itemvalue="TestNG.TestInferenceService" />
-        <item itemvalue="Gradle.kubric-backend-test [clean]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="67aa892d-e048-4d0e-b40b-2ea7dd222391" name="Default Changelist" comment="" />
-      <created>1569925128461</created>
+      <changelist id="55214640-bc9b-4390-8520-3eae93d5edbe" name="Default Changelist" comment="" />
+      <created>1585294211546</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569925128461</updated>
+      <updated>1585294211546</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testStudio_shareStoryboard - 2020.03.23 at 10h 42m 39s.xml">
-      <configuration name="testStudio.shareStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService - 2020.03.27 at 13h 04m 57s.xml">
+      <configuration name="TestAssetService" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_shareStoryboard - 2020.03.23 at 10h 50m 38s.xml">
-      <configuration name="testStudio.shareStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService - 2020.03.27 at 13h 05m 07s.xml">
+      <configuration name="TestAssetService" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_unshareStoryboard - 2020.03.23 at 10h 52m 31s.xml">
-      <configuration name="testStudio.unshareStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 10m 51s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_getVersionStoryboard - 2020.03.23 at 14h 40m 03s.xml">
-      <configuration name="testStudio.getVersionStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 12m 34s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 45m 53s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 15m 49s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 47m 22s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 18m 15s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 47m 41s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 20m 56s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 48m 08s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 22m 41s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 48m 31s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 25m 21s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testStudio_updateStoryboard - 2020.03.23 at 14h 48m 52s.xml">
-      <configuration name="testStudio.updateStoryboard" configurationId="TestNG" />
+    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 30m 01s.xml">
+      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
     </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="24" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993464" visible="true" weight="0.32356533" />
-      <window_info id="Structure" order="1" sideWeight="0.5006536" side_tool="true" weight="0.26007327" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56105006" weight="0.38502672" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8417112" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4969475" visible="true" weight="0.25561497" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.43894994" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993895" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.35828876" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.498779" weight="0.32941177" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.1892552" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" weight="0.26251528" />
-      <window_info anchor="right" id="Gradle" order="9" sideWeight="0.49920255" weight="0.01831502" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993464" visible="true" weight="0.32356533" />
-      <window_info id="Structure" order="1" sideWeight="0.5006536" side_tool="true" weight="0.26007327" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56105006" weight="0.38502672" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8417112" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4969475" weight="0.25561497" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.43894994" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993895" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4993895" weight="0.35828876" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.498779" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24969475" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.1892552" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50079745" side_tool="true" weight="0.26251528" />
-      <window_info anchor="right" id="Gradle" order="9" sideWeight="0.49920255" weight="0.01831502" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kubric_backend_test$kubric_backend_test__runTestInfernceService_.ic" NAME="kubric-backend-test [runTestInfernceService] Coverage Results" MODIFIED="1569952673486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/kubric_backend_test$_Users_yogesh_Documents_kubric_backend_test_build_gradle.ic" NAME="$PROJECT_DIR$/build.gradle Coverage Results" MODIFIED="1569926717609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kubric_backend_test$TestAssetService_testtransforms.ic" NAME="TestAssetService.testtransforms Coverage Results" MODIFIED="1585294955143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/assetsServiceRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/AEPuploadtest.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config-files/Production/LiveBanner.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findShots.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getShotByUidAndId.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getShot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/studioServiceRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilderLivebanners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="139" column="44" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getCampaigns.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="90" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareCampaigns.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareCampaigns.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/CSVParametersProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findCampaigns.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shreShot.json">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareshot.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updateShot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/JSONFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/uploadConfirm.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/mutiplefolder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/Genericupload.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/DownloadAssets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="131" selection-start-line="1" selection-start-column="131" selection-end-line="1" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Assets-Service/nestedFoldercheck.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="185" selection-start-column="185" selection-end-column="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/CreateFolder.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/ZipFileUpload.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createStoryboard.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboard.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/unshareStoryboards.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareshot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareCampigns.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/findStoryboards.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/pinnedStoryboards.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/deleteShot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/deleteStoryboard.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createcampaigns.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shareCampaigns.json">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/request-json/Storyboard-Service/shareStoryboards.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/Unshareshot.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/shareStoryboard.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/unshareStoryboard.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/getStoryboardsbyversion.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/updatestoryboards.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1800" column="55" selection-start-line="1800" selection-start-column="55" selection-end-line="1800" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="370">
+          <caret line="1815" column="38" selection-start-line="1815" selection-start-column="38" selection-end-line="1815" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
+        <state relative-caret-position="193">
+          <caret line="532" column="31" selection-start-line="532" selection-start-column="31" selection-end-line="532" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/testStudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="282" column="55" lean-forward="true" selection-start-line="282" selection-start-column="55" selection-end-line="282" selection-end-column="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/assetTransformService.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>test|kubric-backend-test</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
+                <option value="0.20515268" />
               </list>
             </option>
           </splitter-proportions>

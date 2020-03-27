@@ -1,0 +1,6 @@
+uri
+/api/v1/transform/2c48e663-5102-451b-b4b8-c9f762f444c0/rotate:a=-270
+/api/v1/transform/2c48e663-5102-451b-b4b8-c9f762f444c0/rotate:a=100
+/api/v1/transform/2c48e663-5102-451b-b4b8-c9f762f444c0/crop:x0=240;y0=0;x1=752;y1=512
+/api/v1/transform/2c48e663-5102-451b-b4b8-c9f762f444c0/crop:x0=240;y0=95;x1=752;y1=417
+/api/v1/transform/2c48e663-5102-451b-b4b8-c9f762f444c0/crop:x0=24;y0=95;x1=752;y1=417
