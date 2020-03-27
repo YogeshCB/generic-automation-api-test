@@ -1,4 +1,4 @@
-# Kubric-API-Test
+# Kubric-Api-Test
 To test kubric backend api
 
 
@@ -16,7 +16,7 @@ https://app.circleci.com/pipelines/bitbucket/craftworkx/kubric-backend-test/83/w
 For this project you will nedd to have Java vesrion 8.
 ```
 
-# api-test-to run locally
+# Api test to run locally
 
 
 To run the locally-Assets and studio
