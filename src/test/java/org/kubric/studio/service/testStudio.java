@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class testStudio {
+public class TestStudio {
 
 
     String UrlToUpload = null;
@@ -22,7 +22,7 @@ public class testStudio {
     private static ValidatableResponse response4;
     private static ValidatableResponse response5;
     String responseJson;
-    studioServiceRequestBuilder srb;
+    StudioServiceRequestBuilder srb;
     JSONFileReader jReader;
     String Id_to_delete=null;
     String name2= null;
@@ -35,9 +35,9 @@ public class testStudio {
         System.out.println("--------- Env name: " + env + " ---------");
 
         if (env.equalsIgnoreCase("Staging")) {
-            srb = new studioServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
+            srb = new StudioServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
         } else if (env.equalsIgnoreCase("Production")) {
-            srb = new studioServiceRequestBuilder("/resources/config-files/Production/InferenceService.properties");
+            srb = new StudioServiceRequestBuilder("/resources/config-files/Production/InferenceService.properties");
         }
         jReader = new JSONFileReader();
 

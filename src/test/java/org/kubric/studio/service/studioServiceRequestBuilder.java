@@ -2,8 +2,8 @@ package org.kubric.studio.service;
 
 import org.kubric.commonUtils.RequestBuilder;
 
-public class studioServiceRequestBuilder extends RequestBuilder {
-    public studioServiceRequestBuilder(String filePath) {
+public class StudioServiceRequestBuilder extends RequestBuilder {
+    public StudioServiceRequestBuilder(String filePath) {
         super(filePath);
         System.out.println("---->>>>>> File is: " + filePath + " <<<<<<----");
     }

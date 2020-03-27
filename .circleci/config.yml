@@ -14,7 +14,7 @@ jobs:
           command: ./gradlew build --refresh-dependencies
       - run:
           name: Run studio Tests
-          command: ./gradlew --stacktrace runTestAssetService -DEnvironment=Production
+          command: ./gradlew --stacktrace runalltest -DEnvironment=Production
 
       - run:
           name: Save test results
@@ -25,4 +25,5 @@ jobs:
       - store_test_results:
           path: ~/test-results
       - store_artifacts:
-          path: ~/test-results/junit
+          path: ~/test-r
+          esults/junit
