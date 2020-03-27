@@ -19,7 +19,7 @@ public class TestAssetService {
     private static ValidatableResponse response4;
     private static ValidatableResponse response5;
     String responseJson;
-    assetsServiceRequestBuilder arb;
+    AssetsServiceRequestBuilder arb;
     JSONFileReader jReader;
     String id = null;
     String task_id = null;
@@ -32,9 +32,9 @@ public class TestAssetService {
         System.out.println("--------- Env name: " + env + " ---------");
 
         if (env.equalsIgnoreCase("Staging")) {
-            arb = new assetsServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
+            arb = new AssetsServiceRequestBuilder("/resources/config-files/staging/InferenceService.properties");
         } else if (env.equalsIgnoreCase("Production")) {
-            arb = new assetsServiceRequestBuilder("/resources/config-files/Production/InferenceService.properties");
+            arb = new AssetsServiceRequestBuilder("/resources/config-files/Production/InferenceService.properties");
         }
         jReader = new JSONFileReader();
 
