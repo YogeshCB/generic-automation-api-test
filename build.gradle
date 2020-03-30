@@ -50,16 +50,7 @@ task runTestStudioService(type: JavaExec, dependsOn: 'classes') {
 }
 
 
-task runTestTeamService(type: JavaExec, dependsOn: 'classes') {
-    main = 'org.testng.TestNG'
-    systemProperties = System.properties
-    classpath = files("./src/test/java",
-            project.sourceSets.main.compileClasspath,
-            project.sourceSets.test.compileClasspath,
-            project.sourceSets.main.runtimeClasspath,
-            project.sourceSets.test.runtimeClasspath)
-    args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testWorkspaceTeam.xml"]
-}
+
 
 task runalltest(type: JavaExec, dependsOn: 'classes') {
     main = 'org.testng.TestNG'
@@ -70,4 +61,15 @@ task runalltest(type: JavaExec, dependsOn: 'classes') {
             project.sourceSets.main.runtimeClasspath,
             project.sourceSets.test.runtimeClasspath)
     args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testAllService.xml"]
+}
+
+task runTestTeamService(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.testng.TestNG'
+    systemProperties = System.properties
+    classpath = files("./src/test/java",
+            project.sourceSets.main.compileClasspath,
+            project.sourceSets.test.compileClasspath,
+            project.sourceSets.main.runtimeClasspath,
+            project.sourceSets.test.runtimeClasspath)
+    args = ["-parallel", "methods", "-threadcount", "1", "-d", "./build/test-results", "./testWorkspaceTeam.xml"]
 }
