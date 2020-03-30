@@ -202,7 +202,8 @@ public class TestStudio {
 
     @Test(enabled = true, priority = 0, description = "Test Case - Top create a storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "createStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")
-    public void createStoryboard(String uri) throws FileNotFoundException {
+    public void
+    d(String uri) throws FileNotFoundException {
 
         response = srb.sendformRequestCreateStoryboard(uri);
         String status = response.extract().jsonPath().getString("status");
@@ -263,12 +264,7 @@ public class TestStudio {
     public void findPinnedStoryboard(String uri) throws FileNotFoundException {
         response = srb.getRequest(uri);
         String status = response.extract().jsonPath().getString("status");
-        Assert.assertTrue(status.equals("200"));
-
-
-    }
-
-
+        Assert.assertTrue(status.equals("200"));}
 
     @Test(enabled = true, priority = 0, description = "Test Case - To delete Storyboard inside testing workspace", dataProvider = "csv", dataProviderClass = CSVParametersProvider.class)
     @DataFileParameters(name = "deleteStoryboard.csv", path = "/resources/input-data/Sotoryboard-Service")

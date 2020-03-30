@@ -5,7 +5,18 @@
     <option name="COMMAND_LINE_OPTIONS" value="--stacktrace" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55214640-bc9b-4390-8520-3eae93d5edbe" name="Default Changelist" comment="" />
+    <list default="true" id="55214640-bc9b-4390-8520-3eae93d5edbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/assets/service/TestAssetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/assets/service/TestAssetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/assets/service/assetsServiceRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/assets/service/assetsServiceRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/RequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/commonUtils/RequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/kubric/studio/service/testStudio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/kubric/studio/service/testStudio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,75 +40,108 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testAllService.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/Teams/service/TeamServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="106">
+              <caret line="329" column="119" selection-start-line="329" selection-start-column="119" selection-end-line="329" selection-end-column="119" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/shareFolder.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/shareFolder.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="51" column="15" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/unsahreFolder.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="45">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="137">
+              <caret line="1319" column="27" selection-start-line="1319" selection-start-column="27" selection-end-line="1319" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/sahreAssets.json">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-8">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/unshareAssets.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="70" />
+            <state relative-caret-position="15">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/shareAssets.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="14" selection-end-line="1" selection-end-column="14" />
             </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="41">
+              <caret line="644" column="33" selection-start-line="644" selection-start-column="33" selection-end-line="644" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -111,6 +155,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>folder</find>
+      <find>Id_to_delete_Storyboard</find>
+      <find>Conte</find>
+      <find>get</find>
+      <find>patc</find>
+      <find>create</find>
+      <find>@test</find>
+      <find>patch</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -118,22 +174,54 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
         <option value="$PROJECT_DIR$/resources/input-data/Assets-Service/assetTransformService.csv" />
         <option value="$PROJECT_DIR$/testAssetsService.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/StudioServiceRequestBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/kubric/studio/service/TestStudio.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestbuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/wq.java" />
         <option value="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestBuilder.java" />
         <option value="$PROJECT_DIR$/testngKubricLiveBanners.xml" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/testngKubricInferenceService.xml" />
         <option value="$PROJECT_DIR$/testStudioService.xml" />
         <option value="$PROJECT_DIR$/testAllService.xml" />
+        <option value="$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties" />
+        <option value="$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/Teams/service/TeamServiceRequestBuilder.java" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/getAllWorkspaces.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/deleteUser.json" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/addUsers.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/deleteUsersFromWorkspace.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/addUsersToWorkspace.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/createWorkspace.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/createWorkspace.json" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/getWorkspaceById.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/getWorkspaceById.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/WsUploadUrls.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/Wsuploadurls.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/getTeams.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/createTeam.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/creqteTeam.json" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/addUsersToTeams.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/addUsersToTeam.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/removeUsers.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/removeUsers.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/getTeambyId.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/updateTeam.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/updateTeam.json" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/deleteTeams.csv" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/shareAssets.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/sahreAssets.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/unshareAssets.json" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java" />
+        <option value="$PROJECT_DIR$/resources/input-data/Teams-Service/shareFolder.csv" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/unsahreFolder.json" />
+        <option value="$PROJECT_DIR$/resources/request-json/Teams-service/shareFolder.json" />
+        <option value="$PROJECT_DIR$/src/test/java/org.kubric/Teams/service/TeamServiceTest.java" />
       </list>
     </option>
   </component>
@@ -146,8 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +262,26 @@
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config-files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config-files" type="462c0819:PsiDirectoryNode" />
+              <item name="Production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config-files" type="462c0819:PsiDirectoryNode" />
+              <item name="staging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="input-data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,6 +289,19 @@
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="input-data" type="462c0819:PsiDirectoryNode" />
+              <item name="Teams-Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="request-json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="request-json" type="462c0819:PsiDirectoryNode" />
               <item name="Assets-Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +309,7 @@
               <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="request-json" type="462c0819:PsiDirectoryNode" />
+              <item name="Teams-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
@@ -214,6 +336,24 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org.kubric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org.kubric" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kubric-backend-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org.kubric" type="462c0819:PsiDirectoryNode" />
+              <item name="commonUtils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kubric-backend-test" type="b2602c69:ProjectViewProjectNode" />
@@ -248,6 +388,9 @@
       <recent name="org.kubric.studio.service" />
       <recent name="org.kubric" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/input-data/Teams-Service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -262,14 +405,14 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="org.kubric.studio" type="TestNG" nameIsGenerated="true">
+    <configuration name="TeamServiceTest" type="TestNG" nameIsGenerated="true">
       <module name="kubric-backend-test.test" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="org.kubric.studio" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.kubric.Teams.service" />
+      <option name="MAIN_CLASS_NAME" value="org.kubric.Teams.service.TeamServiceTest" />
+      <option name="METHOD_NAME" value="unshareAssetsFolders" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -DEnvironment=Production" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -298,100 +441,105 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 22m 41s.xml">
-      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 44m 14s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 25m 21s.xml">
-      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 44m 36s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestAssetService_testtransforms - 2020.03.27 at 13h 30m 01s.xml">
-      <configuration name="TestAssetService.testtransforms" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 44m 52s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="org_kubric_studio - 2020.03.27 at 14h 37m 12s.xml">
-      <configuration name="org.kubric.studio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 45m 19s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="org_kubric_studio - 2020.03.27 at 15h 15m 42s.xml">
-      <configuration name="org.kubric.studio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 45m 59s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="org_kubric_studio - 2020.03.27 at 15h 16m 22s.xml">
-      <configuration name="org.kubric.studio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 46m 35s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestStudio - 2020.03.27 at 15h 35m 25s.xml">
-      <configuration name="TestStudio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 46m 55s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestStudio - 2020.03.27 at 15h 40m 23s.xml">
-      <configuration name="TestStudio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_shareAssets - 2020.03.30 at 23h 47m 29s.xml">
+      <configuration name="TeamServiceTest.shareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="org_kubric_studio - 2020.03.27 at 15h 42m 00s.xml">
-      <configuration name="org.kubric.studio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_unshareAssets - 2020.03.30 at 23h 47m 38s.xml">
+      <configuration name="TeamServiceTest.unshareAssets" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="org_kubric_studio - 2020.03.27 at 15h 42m 35s.xml">
-      <configuration name="org.kubric.studio" configurationId="TestNG" />
+    <history-entry file="TeamServiceTest_unshareAssetsFolders - 2020.03.30 at 23h 52m 33s.xml">
+      <configuration name="TeamServiceTest.unshareAssetsFolders" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4969475" weight="0.34285715" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.17216118" side_tool="true" visible="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Problems" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82783884" visible="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="SOQL Query" order="0" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="1" />
+      <window_info anchor="bottom" id="Log Analyzer" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.496337" weight="0.34285715" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.503663" side_tool="true" weight="0.34285715" />
+      <window_info anchor="bottom" id="Problems" order="5" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32857144" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.82783884" visible="true" weight="0.55510205" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24969475" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3436807" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="3" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32941177" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="SOQL Query" order="0" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="1" />
+      <window_info anchor="bottom" id="Log Analyzer" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.496337" weight="0.34285715" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.503663" side_tool="true" weight="0.34285715" />
+      <window_info anchor="bottom" id="Problems" order="5" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32857144" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.82783884" visible="true" weight="0.55510205" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -422,23 +570,75 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kubric_backend_test$TestAssetService_testtransforms.ic" NAME="TestAssetService.testtransforms Coverage Results" MODIFIED="1585294955143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/GenericUpload.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="1815" column="38" selection-start-line="1815" selection-start-column="38" selection-end-line="1815" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
+    <entry file="file://$PROJECT_DIR$/resources/config-files/Production/InferenceService.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/AIFileupload.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createcampaigns.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config-files/Production/LiveBanner.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config-files/staging/InferenceService.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="532" column="31" selection-start-line="532" selection-start-column="31" selection-end-line="532" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Sotoryboard-Service/createshot.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/assetTransformService.csv">
@@ -451,103 +651,358 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kubric-api-test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="65" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/JPEGUploadTest.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/TestStudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="13" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/kubric/studio/service/StudioServiceRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestBuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testngKubricInferenceService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testngKubricLiveBanners.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testStudioService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAssetsService.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="70" />
+        <state relative-caret-position="450">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testAllService.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/AEPuploadtest.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="17" selection-start-column="4" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Assets-Service/JPGUpload.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/StudioServiceRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="5" selection-start-column="1" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/AssetsServiceRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/Teams/service/TeamServiceRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/addUsersToWorkspace.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/deleteUser.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/addUsers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/createWorkspace.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/deleteUsersFromWorkspace.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/createWorkspace.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/getAllWorkspaces.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/Wsuploadurls.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/getWorkspaceById.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="91" selection-start-line="1" selection-start-column="91" selection-end-line="1" selection-end-column="91" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/getTeams.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/createTeam.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/WsUploadUrls.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/createTeam.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/addUsersToTeams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/assets/service/TestAssetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="98" column="9" selection-start-line="95" selection-end-line="98" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/addUsersToTeam.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/removeUsers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/removeUsers.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/getTeambyId.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/updateTeam.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/updateTeam.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/deleteTeams.csv">
+      <provider editor-type-id="csv-text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/sahreAssets.json">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-8">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.0.0/9d08beb00c2a89a7a7e40dba7ff51b7f4ac186e5/rest-assured-3.0.0-sources.jar!/io/restassured/response/ValidatableResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1319" column="27" selection-start-line="1319" selection-start-column="27" selection-end-line="1319" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/studio/service/TestStudio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/unshareAssets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/commonUtils/RequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="644" column="33" selection-start-line="644" selection-start-column="33" selection-end-line="644" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/shareAssets.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input-data/Teams-Service/shareFolder.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/unsahreFolder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/request-json/Teams-service/shareFolder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org.kubric/Teams/service/TeamServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="329" column="119" selection-start-line="329" selection-start-column="119" selection-end-line="329" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

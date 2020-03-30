@@ -27,20 +27,19 @@ public class RequestBuilder {
     public PropertyReader pReader;
     String baseUrl;
 
-    public RequestBuilder(String filePath)
-    {
-            pReader = new PropertyReader(filePath);
-            String server = (String) pReader.get("url");
-            baseUrl = "http://" + server;
-            String origin = (String) pReader.get("origin");
-            String baseUrl= "http://"+server;
+    public RequestBuilder(String filePath) {
+        pReader = new PropertyReader(filePath);
+        String server = (String) pReader.get("url");
+        baseUrl = "http://" + server;
+        String origin = (String) pReader.get("origin");
+        String baseUrl = "http://" + server;
 //                    if (baseUrl == "https://studio.kubric.io/api")
 //                        {
-                             request = new RequestSpecBuilder()
-                            .addHeader("Authorization", "q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                            .setBaseUri(baseUrl)
-                            .build();
-                        }
+        request = new RequestSpecBuilder()
+                .addHeader("Authorization", "q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                .setBaseUri(baseUrl)
+                .build();
+    }
 //                    else
 //                        {
 //                            request = new RequestSpecBuilder().setContentType(ContentType.URLENC.withCharset("UTF-8"))
@@ -50,32 +49,28 @@ public class RequestBuilder {
 //                            .setBaseUri(baseUrl)
 //                            .build();
 //                       }
-  //  }
+    //  }
 
-    public JsonObject createRequestBody(JsonObject jsonFileObject)
-    {
+    public JsonObject createRequestBody(JsonObject jsonFileObject) {
 
         String env = pReader.prop.getProperty("env");
         return jsonFileObject;
     }
 
-    public JsonObject addPropertyToRequest(JsonObject jsonReqBody, String propertyName, String propertyValue)
-    {
+    public JsonObject addPropertyToRequest(JsonObject jsonReqBody, String propertyName, String propertyValue) {
         JsonObject JsonObject = jsonReqBody.getAsJsonObject();
         JsonObject.addProperty(propertyName, propertyValue);
         return jsonReqBody;
     }
 
-    public JsonObject addJsonObjectToRequest(JsonObject jsonReqBody, String propertyName, JsonObject propertyValue)
-    {
+    public JsonObject addJsonObjectToRequest(JsonObject jsonReqBody, String propertyName, JsonObject propertyValue) {
         JsonObject data = jsonReqBody.get("data").getAsJsonObject();
         data.add(propertyName, propertyValue);
         return jsonReqBody;
     }
 
 
-    public JsonObject removePropertyFromRequest(JsonObject jsonReqBody, String propertyName)
-    {
+    public JsonObject removePropertyFromRequest(JsonObject jsonReqBody, String propertyName) {
         JsonObject data = jsonReqBody.get("data").getAsJsonObject();
         data.remove(propertyName);
 
@@ -83,9 +78,7 @@ public class RequestBuilder {
     }
 
 
-
-    public ValidatableResponse sendRequest(JsonObject jsonReqBody, String pathUri)
-    {
+    public ValidatableResponse sendRequest(JsonObject jsonReqBody, String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -93,7 +86,7 @@ public class RequestBuilder {
         Reporter.log("\n" + jsonReqBody, 1, true);
 
         ValidatableResponse response =
-                         given()
+                given()
                         .spec(request)
                         .body(jsonReqBody.toString())
                         .when()
@@ -106,9 +99,7 @@ public class RequestBuilder {
     }
 
 
-
-    public ValidatableResponse sendRequestAssets(JsonObject jsonReqBody, String pathUri)
-    {
+    public ValidatableResponse sendRequestAssets(JsonObject jsonReqBody, String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -120,9 +111,9 @@ public class RequestBuilder {
 
                         .spec(request)
                         .body(jsonReqBody.toString())
-                        .header("Content-Type" , "application/json")
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Content-Type", "application/json")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .post(pathUri)
                         .then().log().ifError();
@@ -133,8 +124,7 @@ public class RequestBuilder {
     }
 
 
-    public ValidatableResponse sendRequestUploadConfirm(JsonObject jsonReqBody1, String pathUri)
-    {
+    public ValidatableResponse sendRequestUploadConfirm(JsonObject jsonReqBody1, String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -146,9 +136,9 @@ public class RequestBuilder {
 
                         .spec(request)
                         .body(jsonReqBody1.toString())
-                        .header("Content-Type" , "application/json")
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Content-Type", "application/json")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .post(pathUri)
                         .then().log().ifError();
@@ -157,8 +147,8 @@ public class RequestBuilder {
 
         return response;
     }
-    public ValidatableResponse sendRequestUploadUrl( String urlToUpload, String folderpath)
-    {
+
+    public ValidatableResponse sendRequestUploadUrl(String urlToUpload, String folderpath) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
         Reporter.log("--------------", 1, true);
@@ -178,9 +168,7 @@ public class RequestBuilder {
     }
 
 
-
-    public ValidatableResponse sendGenericPostRequestUploadUrl(String uri, JsonObject jsonReqBody)
-    {
+    public ValidatableResponse sendGenericPostRequestUploadUrl(String uri, JsonObject jsonReqBody) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + uri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -193,9 +181,9 @@ public class RequestBuilder {
                         .spec(request)
                         .body(jsonReqBody.toString())
                         .when()
-                        .header("Content-Type" , "application/json")
-                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("Content-Type", "application/json")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
 
 
                         .post(uri)
@@ -208,14 +196,13 @@ public class RequestBuilder {
     }
 
 
-    public ValidatableResponse sendformRequestCreateAStoryBoard(String pathUri)
-    {
+    public ValidatableResponse sendformRequestCreateAStoryBoard(String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
         Reporter.log("--------------", 1, true);
         ValidatableResponse response =
-                         given()
+                given()
                         .spec(request)
                         .formParam("shots", "276956fe-ec0f-403c-820b-a1383c57f034")
                         .formParam("content_type", "marketing")
@@ -237,8 +224,7 @@ public class RequestBuilder {
     }
 
 
-    public ValidatableResponse sendformRequestCreateShot(String pathUri)
-    {
+    public ValidatableResponse sendformRequestCreateShot(String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -260,19 +246,19 @@ public class RequestBuilder {
         return response;
 
     }
-    public ValidatableResponse getRequest(String pathUri)
-    {
+
+    public ValidatableResponse getRequest(String pathUri) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
         Reporter.log("--------------", 1, true);
         ValidatableResponse response =
-                         given()
+                given()
                         .spec(request)
-                        .queryParam("content_type","feed,marketing")
-                                 .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                                 .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .queryParam("content_type", "feed,marketing")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
 
                         .when()
                         .get(pathUri)
@@ -284,8 +270,7 @@ public class RequestBuilder {
 
     }
 
-    public ValidatableResponse getiInfernceRequest(String pathUri)
-    {
+    public ValidatableResponse getiInfernceRequest(String pathUri) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
@@ -303,8 +288,8 @@ public class RequestBuilder {
         return response;
 
     }
-    public ValidatableResponse patchRequest(String pathUri)
-    {
+
+    public ValidatableResponse patchRequest(String pathUri) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
@@ -323,8 +308,7 @@ public class RequestBuilder {
 
     }
 
-    public ValidatableResponse delteRequest(String pathUri)
-    {
+    public ValidatableResponse delteRequest(String pathUri) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
@@ -333,8 +317,8 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .spec(request)
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .delete(pathUri)
                         .then().log().ifError();
@@ -345,8 +329,7 @@ public class RequestBuilder {
 
     }
 
-    public ValidatableResponse getTaskID(String task_url)
-    {
+    public ValidatableResponse getTaskID(String task_url) {
 
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + task_url, 1, true);
@@ -355,8 +338,8 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .spec(request)
-                        .header("Authorization","Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                        .header("X-Kubric-Workspace-ID","b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
                         .get(task_url)
                         .then().log().ifError();
@@ -366,7 +349,6 @@ public class RequestBuilder {
         return response;
 
     }
-
 
 
     public ValidatableResponse getUnzipTaskID(String task_url2) {
@@ -390,73 +372,73 @@ public class RequestBuilder {
 
 
     }
-        public ValidatableResponse getassetFilter(String uri) {
 
-            Reporter.log("Base URL: " + baseUrl, 1, true);
-            Reporter.log("Endpoint: " + uri, 1, true);
-            Reporter.log("\nFINAL REQUEST: ", 1, true);
-            Reporter.log("--------------", 1, true);
-            ValidatableResponse response =
-                    given()
-                            .spec(request)
-                            .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
-                            .when()
-                            .get(uri)
-                            .then().log().ifError();
-            Reporter.log("RESPONSE : ", 1, true);
-            Reporter.log(response.extract().body().asString(), 1, true);
+    public ValidatableResponse getassetFilter(String uri) {
 
-            return response;
-        }
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .get(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
 
-            public ValidatableResponse patchformRequestCreateShot(String pathUri) {
-                Reporter.log("Base URL: " + baseUrl, 1, true);
-                Reporter.log("Endpoint: " + pathUri, 1, true);
-                Reporter.log("\nFINAL REQUEST: ", 1, true);
-                Reporter.log("--------------", 1, true);
-                ValidatableResponse response =
-                        given()
-                                .spec(request)
-                                .formParam("template", "{ \"duration\": 1000, \"objects\": [ { \"color\": \"{{bg_color}}\", \"position\": { \"y\": 0, \"x\": 0 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"url\": \"https://lh3.googleusercontent.com/kcRJEvRnL6iIvRNqzAQeiTtah12tZjxUxtwnnlvCl6z9GKVfh1p-NRI1u_YKfRLOS5lPtKhOCN4O5x3zVg_w2CI=s0\", \"position\": { \"y\": 0, \"x\": \"[[{{global_width}}/2]]\" }, \"type\": \"image\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"color\": \"white\", \"text\": \"{{text1}}\", \"fontSize\": 50, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2)  - 100]]\", \"x\": 100 } }, { \"color\": \"white\", \"text\": \"{{text2}}\", \"fontSize\": 70, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2) ]]\", \"x\": 100 } }, { \"color\": \"white\", \"position\": { \"y\": \"[[({{global_height}}/2)-50]]\", \"x\": 100 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": 4, \"w\": 400 } } ], \"size\": { \"h\": \"{{global_height}}\", \"w\": \"{{global_width}}\" } }")
+        return response;
+    }
 
-                                .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                                .when()
-                                .put(pathUri)
-                                .then().log().ifError();
-                Reporter.log("RESPONSE : ", 1, true);
-                Reporter.log(response.extract().body().asString(), 1, true);
-                return response;
-            }
+    public ValidatableResponse patchformRequestCreateShot(String pathUri) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .formParam("template", "{ \"duration\": 1000, \"objects\": [ { \"color\": \"{{bg_color}}\", \"position\": { \"y\": 0, \"x\": 0 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"url\": \"https://lh3.googleusercontent.com/kcRJEvRnL6iIvRNqzAQeiTtah12tZjxUxtwnnlvCl6z9GKVfh1p-NRI1u_YKfRLOS5lPtKhOCN4O5x3zVg_w2CI=s0\", \"position\": { \"y\": 0, \"x\": \"[[{{global_width}}/2]]\" }, \"type\": \"image\", \"size\": { \"h\": \"{{global_height}}\", \"w\": \"[[{{global_width}}/2]]\" } }, { \"color\": \"white\", \"text\": \"{{text1}}\", \"fontSize\": 50, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2)  - 100]]\", \"x\": 100 } }, { \"color\": \"white\", \"text\": \"{{text2}}\", \"fontSize\": 70, \"type\": \"text\", \"position\": { \"y\": \"[[({{global_height}}/2) ]]\", \"x\": 100 } }, { \"color\": \"white\", \"position\": { \"y\": \"[[({{global_height}}/2)-50]]\", \"x\": 100 }, \"kind\": \"rectangle\", \"type\": \"shape\", \"size\": { \"h\": 4, \"w\": 400 } } ], \"size\": { \"h\": \"{{global_height}}\", \"w\": \"{{global_width}}\" } }")
 
-                public ValidatableResponse sendCreateCampaigns(String pathUri, String content_type)
-                {
-                    Reporter.log("Base URL: " + baseUrl, 1, true);
-                    Reporter.log("Endpoint: " + pathUri, 1, true);
-                    Reporter.log("\nFINAL REQUEST: ", 1, true);
-                    Reporter.log("--------------", 1, true);
-                    ValidatableResponse response =
-                            given()
-                                    .spec(request)
-                                    .formParam("name", "AutomationTestCamp")
-                                    .formParam("desc", "test")
-                                    .formParam("display_name", "test camp")
-                                    .formParam("intent","Discovery")
-                                    .formParam("audiences", "6676884")
-                                    .formParam("channels","{\"type\":\"fb\", \"meta\":{\"fb_id\":\"100012\"}}")
-                                    .formParam("template","e57de14b-205b-495e-99e4-fa5425895c20")
-                                    .formParam("workspace_id","b98b4bf4-989c-49cd-9597-b287cb8436df")
-                                    .formParam("content_type",content_type)
-                                    .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                                    .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
-                                    .when()
-                                    .post(pathUri)
-                                    .then().log().ifError();
-                    Reporter.log("RESPONSE : ", 1, true);
-                    Reporter.log(response.extract().body().asString(), 1, true);
-                    return response;
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .when()
+                        .put(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+        return response;
+    }
 
-                }
+    public ValidatableResponse sendCreateCampaigns(String pathUri, String content_type) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .formParam("name", "AutomationTestCamp")
+                        .formParam("desc", "test")
+                        .formParam("display_name", "test camp")
+                        .formParam("intent", "Discovery")
+                        .formParam("audiences", "6676884")
+                        .formParam("channels", "{\"type\":\"fb\", \"meta\":{\"fb_id\":\"100012\"}}")
+                        .formParam("template", "e57de14b-205b-495e-99e4-fa5425895c20")
+                        .formParam("workspace_id", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .formParam("content_type", content_type)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .post(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+        return response;
+
+    }
 
     public ValidatableResponse patchsharecamps(String uri, JsonObject jsonReqBody) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
@@ -467,11 +449,9 @@ public class RequestBuilder {
 
         ValidatableResponse response =
                 given()
-                        .contentType("")
                         .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
                         .spec(request)
                         .body(jsonReqBody.toString())
-                        .header("Content-Type", "application/json")
                         .when()
                         .patch(uri)
                         .then().log().ifError();
@@ -481,35 +461,7 @@ public class RequestBuilder {
         return response;
     }
 
-        public ValidatableResponse sendformRequestCreateStoryboard(String pathUri)
-        {
-            Reporter.log("Base URL: " + baseUrl, 1, true);
-            Reporter.log("Endpoint: " + pathUri, 1, true);
-            Reporter.log("\nFINAL REQUEST: ", 1, true);
-            Reporter.log("--------------", 1, true);
-            ValidatableResponse response =
-                    given()
-                            .spec(request)
-                            .formParam("name", "AutomationTestShot")
-                            .formParam("shots","1c9de524-b7e8-4612-8acc-80756f0d5896")
-                            .formParam("shot_versions","79dbeadd-4c30-407a-ae65-1dd67dfb0fda")
-                            .formParam("public","0")
-                            .formParam("status","1")
-                            .formParam("parameters","global_width: 1200, bg_color: \"#232323\", text1: \"This Summer\", global_height: 700, text2: \"Lets Roll\"")
-                            .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
-                            .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
-                            .when()
-                            .post(pathUri)
-                            .then().log().ifError();
-            Reporter.log("RESPONSE : ", 1, true);
-            Reporter.log(response.extract().body().asString(), 1, true);
-            return response;
-
-        }
-
-
-    public ValidatableResponse sendformRequestCreateStoryboard2(String pathUri)
-    {
+    public ValidatableResponse sendformRequestCreateStoryboard(String pathUri) {
         Reporter.log("Base URL: " + baseUrl, 1, true);
         Reporter.log("Endpoint: " + pathUri, 1, true);
         Reporter.log("\nFINAL REQUEST: ", 1, true);
@@ -517,8 +469,34 @@ public class RequestBuilder {
         ValidatableResponse response =
                 given()
                         .spec(request)
-                        .formParam("public","1")
-                        .formParam("status","1")
+                        .formParam("name", "AutomationTestShot")
+                        .formParam("shots", "1c9de524-b7e8-4612-8acc-80756f0d5896")
+                        .formParam("shot_versions", "79dbeadd-4c30-407a-ae65-1dd67dfb0fda")
+                        .formParam("public", "0")
+                        .formParam("status", "1")
+                        .formParam("parameters", "global_width: 1200, bg_color: \"#232323\", text1: \"This Summer\", global_height: 700, text2: \"Lets Roll\"")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .when()
+                        .post(pathUri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+        return response;
+
+    }
+
+
+    public ValidatableResponse sendformRequestCreateStoryboard2(String pathUri) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + pathUri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .formParam("public", "1")
+                        .formParam("status", "1")
                         .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
                         .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
                         .when()
@@ -549,7 +527,143 @@ public class RequestBuilder {
 
         return response;
 
-    }}
+    }
+
+    public ValidatableResponse sendRequestUsers(JsonObject jsonReqBody, String uri) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        Reporter.log("\n" + jsonReqBody, 1, true);
+
+        ValidatableResponse response =
+                given()
+
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .body(jsonReqBody.toString())
+
+                        .when()
+
+                        .patch(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+    }
 
 
+    public ValidatableResponse sendRequestWorkspace(JsonObject jsonReqBody, String uri) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        Reporter.log("\n" + jsonReqBody, 1, true);
 
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .body(jsonReqBody.toString())
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("Content-Type", "application/json")
+                        .when()
+                        .post(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+    }
+
+
+    public ValidatableResponse deleteRequestWorkspace(String uri) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .when()
+                        .delete(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+
+
+    }
+
+
+    public ValidatableResponse getWSByID(String uri) {
+
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .when()
+                        .get(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+    }
+
+
+    public ValidatableResponse putTeamsUpdate(String uri, JsonObject jsonReqBody) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        Reporter.log("\n" + jsonReqBody, 1, true);
+
+        ValidatableResponse response =
+                given()
+                        .contentType("")
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .spec(request)
+                        .body(jsonReqBody.toString())
+                        .header("Content-Type", "application/json")
+                        .when()
+                        .put(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+    }
+
+    public ValidatableResponse patchshareAssets(String uri, JsonObject jsonReqBody) {
+        Reporter.log("Base URL: " + baseUrl, 1, true);
+        Reporter.log("Endpoint: " + uri, 1, true);
+        Reporter.log("\nFINAL REQUEST: ", 1, true);
+        Reporter.log("--------------", 1, true);
+        Reporter.log("\n" + jsonReqBody, 1, true);
+
+        ValidatableResponse response =
+                given()
+                        .spec(request)
+                        .header("Authorization", "Bearer q4VF6j48uVZgCFk+hJjwUzwdvCScvBUxXqjwZ9qbj09KFMh1iqoz3I8CRUYk2VJD7Eb1w90ii3QkKLaK+8iG2sYujW2vT9hnO4rf12YZhvM=")
+                        .header("X-Kubric-Workspace-ID", "b98b4bf4-989c-49cd-9597-b287cb8436df")
+                        .header("Content-Type","application/json")
+                        .body(jsonReqBody.toString())
+                        .when()
+                        .patch(uri)
+                        .then().log().ifError();
+        Reporter.log("RESPONSE : ", 1, true);
+        Reporter.log(response.extract().body().asString(), 1, true);
+
+        return response;
+    }
+
+
+}
