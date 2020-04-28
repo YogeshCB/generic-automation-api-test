@@ -31,3 +31,7 @@ To run the locally-Assets and studio
 2. Add a test ng config.
 3. Specify the class that you have to run after selecting test kind as class. In case of assets it would be TestStudio
 4. After specifying class name provide the VM options -ea -DEnvironment=Production if you are running test in production. If you are running test in staging provide VM option as  -ea -DEnvironment=Staging.```
+
+
+# Arcitectural data can be seen here 
+https://docs.google.com/document/d/1_nxswOpnGldaDwGxHbZupCswovsXt6d9P22_dyS0GAc/edit
