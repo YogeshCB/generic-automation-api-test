@@ -1,28 +1,13 @@
-version: 2
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Use a package of configuration called an orb.
 orbs:
-  allure: ayte/allure@0.1.2
-jobs:
-  build:
-    working_directory: ~/repo
-    docker:
-      - image: circleci/android:api-28
-    steps:
-      - checkout
-
-      - run:
-          name: Download Dependencies
-          command: ./gradlew build --refresh-dependencies
-      - run:
-          name: Run studio Tests
-          command: ./gradlew --stacktrace runTestTeamService -DEnvironment=Production
-
-      - run:
-          name: Save test results
-          command: |
-            mkdir -p ~/test-results/junit/
-            find . -type f -regex ".*/build/test-results/.*html" -exec cp {} ~/test-results/junit/ \;
-          when: always
-      - store_test_results:
-          path: ~/test-results
-      - store_artifacts:
-          path: ~/test-results/junit
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1
+# Orchestrate or schedule a set of jobs
+workflows:
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - welcome/run
