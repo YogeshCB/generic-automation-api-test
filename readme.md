@@ -1,4 +1,4 @@
-# Generic-Kubric-Api-Test
+# Generic-Api-Test-Framework 
 To test kubric backend api
 
 
